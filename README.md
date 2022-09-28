@@ -10,6 +10,7 @@ Project Objective - The goal is to automatically build the knowledge graph on th
 + Shashwat Singh (ss6373)
 #### 🧑🏻‍💼 Sponsor/Mentor:
 - Mr. Satish Banka from Accenture
+- Mr. Rajkumar Subramanian from Accenture
 #### 🧑🏻‍🏫 CA:
 - Aayush Kumar Verma
 #### 🧑🏻‍🏫 instructor:

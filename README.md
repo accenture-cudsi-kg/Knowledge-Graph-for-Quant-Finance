@@ -13,5 +13,5 @@ Project Objective - The goal is to automatically build the knowledge graph on th
 - Mr. Rajkumar Subramanian from Accenture
 #### 🧑🏻‍🏫 CA:
 - Aayush Kumar Verma
-#### 🧑🏻‍🏫 instructor:
+#### 🧑🏻‍🏫 Instructor:
 - Prof. Sining Chen

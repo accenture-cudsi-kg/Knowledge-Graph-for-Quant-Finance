@@ -65,16 +65,17 @@ stanford_entities_ontology=list(stanford_ontology["entities"].keys())
 
 
 
-bert_template={4:["SELECT (count(*) as? count) WHERE {<http://crypto.org/ENTITY_CLASS/ENTITY><http://crypto.org/RELATION_CLASS/RELATION> ?o.}",
+bert_template={4:["SELECT (count(*) as? count) WHERE {<http://crypto.org/ENTITY_CLASS/ENTITY> <http://crypto.org/RELATION_CLASS/RELATION> ?o.}",
                   "SELECT (count(*) as? count) WHERE {?s <http://crypto.org/RELATION_CLASS/RELATION> <http://crypto.org/ENTITY_CLASS/ENTITY>.}"]
-            ,5:""}
+            ,5:["SELECT ?o WHERE { <http://crypto.org/ENTITY_CLASS/ENTITY> <http://crypto.org/RELATION_CLASS/RELATION> ?o. } ORDER BY AGGREGATION_METHOD(?o) LIMIT 1"]}
 XGB_template={2:[1,"SELECT DISTINCT ?o WHERE { <http://crypto.org/ENTITY_CLASS/ENTITY> <http://crypto.org/RELATION_CLASS/RELATION> ?o.}",
                  "SELECT DISTINCT ?s WHERE { ?s <http://crypto.org/RELATION_CLASS/RELATION> <http://crypto.org/ENTITY_CLASS/ENTITY>.}"],
-           16:[2,"SELECT DISTINCT ?o WHERE { <http://crypto.org/SUBJECT1_CLASS/SUBJECT1><http://crypto.org/RELATION1_CLASS/RELATION1> ?o. <http://crypto.org/SUBJECT2_CLASS/SUBJECT2><http://crypto.org/RELATION2_CLASS/RELATION2> ?o. }"],
+           16:[2,"SELECT DISTINCT ?o WHERE { <http://crypto.org/SUBJECT1_CLASS/SUBJECT1> <http://crypto.org/RELATION1_CLASS/RELATION1> ?o. <http://crypto.org/SUBJECT2_CLASS/SUBJECT2> <http://crypto.org/RELATION2_CLASS/RELATION2> ?o. }"],
            305:[2,""]}
 ner = spacy.load('en_core_web_trf')
 
-
+max_superlatives=["highest","maximum","most","greatest","best","farthest","longest"]
+min_superlatives=["least","smallest","lowest","minimum","worst","closest","shortest"]
 
 
 
@@ -273,6 +274,7 @@ def get_single_entity(query,ontology):
 # For template 1
 def get_entities(query,ontology):
   # If NER exists that's the entity - simply try mapping it to a class and entity
+  query.replace("cryptocurrency","crypto currency")
   entities=[]
   doc=ner(query)
   if len(doc.ents)>0:
@@ -305,3 +307,15 @@ def get_entities(query,ontology):
 
     
   return final_mapped_entities,final_mapped_entities_classes
+  
+def get_aggregation_method(query):
+      tokens=query.split()
+      for token in tokens:
+          if token in max_superlatives:
+              return ["DESC"]
+          if token in min_superlatives:
+              return ["AESC"]
+    
+      return ["DESC","AESC"]
+      
+      

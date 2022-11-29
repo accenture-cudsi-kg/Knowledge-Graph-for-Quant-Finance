@@ -128,16 +128,19 @@ def template_classification(query):
       # print(sparql_templates)
       return label,n_entities, sparql_templates
     else:
-      return 1,100,"SELECT DISTINCT ?p ?o WHERE { <http://crypto.org/SUBJECT_CLASS/SUBJECT> ?p ?o.}"
+      return 1,100,"SELECT DISTINCT ?p ?o WHERE { <http://crypto.org/ENTITY_CLASS/ENTITY> ?p ?o.}"
 
 
 # Step 2: Relation extraction
 
 def clean_query_for_sim(cleaned_query):
+  cleaned_query=cleaned_query.replace("List ","").replace("list ","")
   doc = nlp(cleaned_query)
   hyper_cleaned_query=""
 
   for token in doc:
+    if token.lemma_=="write":
+      return "author"
     if token.pos_ == "VERB":
       hyper_cleaned_query=hyper_cleaned_query+token.lemma_+" "
 
@@ -168,10 +171,12 @@ def get_single_relation(query,ontology):
   else:
       relation_embeddings=stanford_relation_embeddings
       relations=stanford_relations
+      
       ontology=stanford_ontology
 
   
   hyper_cleaned_query=clean_query_for_sim(query)
+  print(hyper_cleaned_query)
   fuzzy_score=[]
   for relation in relations:
     score=fuzz.token_set_ratio(hyper_cleaned_query,relation)

@@ -1,0 +1,2322 @@
+@prefix ANALYSE: <http://crypto.org/ANALYSE/> .
+@prefix CARDINAL: <http://crypto.org/CARDINAL/> .
+@prefix CHARACTERIZE: <http://crypto.org/CHARACTERIZE/> .
+@prefix COLLUDE: <http://crypto.org/COLLUDE/> .
+@prefix CORRELATE: <http://crypto.org/CORRELATE/> .
+@prefix DATE: <http://crypto.org/DATE/> .
+@prefix DECOMPOSE: <http://crypto.org/DECOMPOSE/> .
+@prefix ENDORSE: <http://crypto.org/ENDORSE/> .
+@prefix GPE: <http://crypto.org/GPE/> .
+@prefix INCUR: <http://crypto.org/INCUR/> .
+@prefix INVEST: <http://crypto.org/INVEST/> .
+@prefix IS_AUTHOR_OF: <http://crypto.org/IS_AUTHOR_OF/> .
+@prefix MISCELLANEOUS: <http://crypto.org/MISCELLANEOUS/> .
+@prefix NORP: <http://crypto.org/NORP/> .
+@prefix OPTIMIZE: <http://crypto.org/OPTIMIZE/> .
+@prefix ORDINAL: <http://crypto.org/ORDINAL/> .
+@prefix ORG: <http://crypto.org/ORG/> .
+@prefix OUTPERFORM: <http://crypto.org/OUTPERFORM/> .
+@prefix PERCENT: <http://crypto.org/PERCENT/> .
+@prefix PERSON: <http://crypto.org/PERSON/> .
+@prefix PRECEDE: <http://crypto.org/PRECEDE/> .
+@prefix PREVAIL: <http://crypto.org/PREVAIL/> .
+@prefix PRODUCT: <http://crypto.org/PRODUCT/> .
+@prefix RECALCULATE: <http://crypto.org/RECALCULATE/> .
+@prefix REGULARIZE: <http://crypto.org/REGULARIZE/> .
+@prefix REVERT: <http://crypto.org/REVERT/> .
+@prefix TIME: <http://crypto.org/TIME/> .
+@prefix TRANSFER: <http://crypto.org/TRANSFER/> .
+@prefix UNDERESTIMATE: <http://crypto.org/UNDERESTIMATE/> .
+@prefix UNDERLIE: <http://crypto.org/UNDERLIE/> .
+@prefix WORK_OF_ART: <http://crypto.org/WORK_OF_ART/> .
+@prefix ns1: <http://crypto.org/IS_AUTHOR_OF/be_n'> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ANALYSE:analyse a "ANALYSE"^^xsd:string .
+
+CARDINAL:below_4107_usd a "CARDINAL"^^xsd:string ;
+    INVEST:surge ORG:when .
+
+CARDINAL:by_one_group a "CARDINAL"^^xsd:string ;
+    INVEST:carry ORG:these_event .
+
+CARDINAL:two_basic_rule a "CARDINAL"^^xsd:string ;
+    INVEST:promise ORG:property .
+
+CHARACTERIZE:characterize a "CHARACTERIZE"^^xsd:string .
+
+COLLUDE:collude a "COLLUDE"^^xsd:string .
+
+CORRELATE:correlate a "CORRELATE"^^xsd:string .
+
+DATE:1_-_day_ahead a "DATE"^^xsd:string ;
+    INVEST:realize ORG:variance .
+
+DATE:daily_return a "DATE"^^xsd:string ;
+    INVEST:suffer ORG:a_regime_switch .
+
+DECOMPOSE:decompose a "DECOMPOSE"^^xsd:string .
+
+ENDORSE:endorse a "ENDORSE"^^xsd:string .
+
+GPE:Ethereum_and_XRP a "GPE"^^xsd:string ;
+    INVEST:include ORG:different_cryptoasset .
+
+GPE:powerful_node a "GPE"^^xsd:string ;
+    INVEST:use ORG:for_future_investigation .
+
+GPE:those_RV_estimator a "GPE"^^xsd:string ;
+    INVEST:be ORG:comparable .
+
+INCUR:endanger a "INCUR"^^xsd:string .
+
+INCUR:incur a "INCUR"^^xsd:string .
+
+INVEST:accompany a "INVEST"^^xsd:string .
+
+INVEST:achieve a "INVEST"^^xsd:string .
+
+INVEST:address a "INVEST"^^xsd:string .
+
+INVEST:adjust a "INVEST"^^xsd:string .
+
+INVEST:adopt a "INVEST"^^xsd:string .
+
+INVEST:affect a "INVEST"^^xsd:string .
+
+INVEST:allow a "INVEST"^^xsd:string .
+
+INVEST:analyze a "INVEST"^^xsd:string .
+
+INVEST:answer a "INVEST"^^xsd:string .
+
+INVEST:apply a "INVEST"^^xsd:string .
+
+INVEST:approach a "INVEST"^^xsd:string .
+
+INVEST:assume a "INVEST"^^xsd:string .
+
+INVEST:attract a "INVEST"^^xsd:string .
+
+INVEST:be a "INVEST"^^xsd:string .
+
+INVEST:become a "INVEST"^^xsd:string .
+
+INVEST:behave a "INVEST"^^xsd:string .
+
+INVEST:build a "INVEST"^^xsd:string .
+
+INVEST:buy a "INVEST"^^xsd:string .
+
+INVEST:calculate a "INVEST"^^xsd:string .
+
+INVEST:call a "INVEST"^^xsd:string .
+
+INVEST:carry a "INVEST"^^xsd:string .
+
+INVEST:cause a "INVEST"^^xsd:string .
+
+INVEST:cheat a "INVEST"^^xsd:string .
+
+INVEST:choose a "INVEST"^^xsd:string .
+
+INVEST:combine a "INVEST"^^xsd:string .
+
+INVEST:compare a "INVEST"^^xsd:string .
+
+INVEST:compete a "INVEST"^^xsd:string .
+
+INVEST:conduct a "INVEST"^^xsd:string .
+
+INVEST:consider a "INVEST"^^xsd:string .
+
+INVEST:consist a "INVEST"^^xsd:string .
+
+INVEST:construct a "INVEST"^^xsd:string .
+
+INVEST:contain a "INVEST"^^xsd:string .
+
+INVEST:contribute a "INVEST"^^xsd:string .
+
+INVEST:convert a "INVEST"^^xsd:string .
+
+INVEST:coordinate a "INVEST"^^xsd:string .
+
+INVEST:deal a "INVEST"^^xsd:string .
+
+INVEST:define a "INVEST"^^xsd:string .
+
+INVEST:demonstrate a "INVEST"^^xsd:string .
+
+INVEST:derive a "INVEST"^^xsd:string .
+
+INVEST:describe a "INVEST"^^xsd:string .
+
+INVEST:destroy a "INVEST"^^xsd:string .
+
+INVEST:detect a "INVEST"^^xsd:string .
+
+INVEST:distribute a "INVEST"^^xsd:string .
+
+INVEST:divide a "INVEST"^^xsd:string .
+
+INVEST:do a "INVEST"^^xsd:string .
+
+INVEST:dominate a "INVEST"^^xsd:string .
+
+INVEST:earn a "INVEST"^^xsd:string .
+
+INVEST:employ a "INVEST"^^xsd:string .
+
+INVEST:estimate a "INVEST"^^xsd:string .
+
+INVEST:execute a "INVEST"^^xsd:string .
+
+INVEST:exhibit a "INVEST"^^xsd:string .
+
+INVEST:explore a "INVEST"^^xsd:string .
+
+INVEST:extend a "INVEST"^^xsd:string .
+
+INVEST:extract a "INVEST"^^xsd:string .
+
+INVEST:fall a "INVEST"^^xsd:string .
+
+INVEST:fill a "INVEST"^^xsd:string .
+
+INVEST:find a "INVEST"^^xsd:string .
+
+INVEST:focus a "INVEST"^^xsd:string .
+
+INVEST:follow a "INVEST"^^xsd:string .
+
+INVEST:gain a "INVEST"^^xsd:string .
+
+INVEST:gather a "INVEST"^^xsd:string .
+
+INVEST:generate a "INVEST"^^xsd:string .
+
+INVEST:get a "INVEST"^^xsd:string .
+
+INVEST:give a "INVEST"^^xsd:string .
+
+INVEST:got a "INVEST"^^xsd:string .
+
+INVEST:grow a "INVEST"^^xsd:string .
+
+INVEST:have a "INVEST"^^xsd:string .
+
+INVEST:hide a "INVEST"^^xsd:string .
+
+INVEST:identify a "INVEST"^^xsd:string .
+
+INVEST:implement a "INVEST"^^xsd:string .
+
+INVEST:imply a "INVEST"^^xsd:string .
+
+INVEST:improve a "INVEST"^^xsd:string .
+
+INVEST:include a "INVEST"^^xsd:string .
+
+INVEST:incorporate a "INVEST"^^xsd:string .
+
+INVEST:increase a "INVEST"^^xsd:string .
+
+INVEST:indicate a "INVEST"^^xsd:string .
+
+INVEST:inform a "INVEST"^^xsd:string .
+
+INVEST:inspire a "INVEST"^^xsd:string .
+
+INVEST:interpret a "INVEST"^^xsd:string .
+
+INVEST:introduce a "INVEST"^^xsd:string .
+
+INVEST:invest a "INVEST"^^xsd:string .
+
+INVEST:investigate a "INVEST"^^xsd:string .
+
+INVEST:involve a "INVEST"^^xsd:string .
+
+INVEST:know a "INVEST"^^xsd:string .
+
+INVEST:lack a "INVEST"^^xsd:string .
+
+INVEST:lead a "INVEST"^^xsd:string .
+
+INVEST:learn a "INVEST"^^xsd:string .
+
+INVEST:leave a "INVEST"^^xsd:string .
+
+INVEST:look a "INVEST"^^xsd:string .
+
+INVEST:maintain a "INVEST"^^xsd:string .
+
+INVEST:make a "INVEST"^^xsd:string .
+
+INVEST:manufacture a "INVEST"^^xsd:string .
+
+INVEST:measure a "INVEST"^^xsd:string .
+
+INVEST:miss a "INVEST"^^xsd:string .
+
+INVEST:move a "INVEST"^^xsd:string .
+
+INVEST:observe a "INVEST"^^xsd:string .
+
+INVEST:obtain a "INVEST"^^xsd:string .
+
+INVEST:offer a "INVEST"^^xsd:string .
+
+INVEST:open a "INVEST"^^xsd:string .
+
+INVEST:pay a "INVEST"^^xsd:string .
+
+INVEST:perform a "INVEST"^^xsd:string .
+
+INVEST:play a "INVEST"^^xsd:string .
+
+INVEST:present a "INVEST"^^xsd:string .
+
+INVEST:produce a "INVEST"^^xsd:string .
+
+INVEST:promise a "INVEST"^^xsd:string .
+
+INVEST:provide a "INVEST"^^xsd:string .
+
+INVEST:punish a "INVEST"^^xsd:string .
+
+INVEST:pursue a "INVEST"^^xsd:string .
+
+INVEST:push a "INVEST"^^xsd:string .
+
+INVEST:reach a "INVEST"^^xsd:string .
+
+INVEST:realize a "INVEST"^^xsd:string .
+
+INVEST:receive a "INVEST"^^xsd:string .
+
+INVEST:recommend a "INVEST"^^xsd:string .
+
+INVEST:reduce a "INVEST"^^xsd:string .
+
+INVEST:relate a "INVEST"^^xsd:string .
+
+INVEST:remain a "INVEST"^^xsd:string .
+
+INVEST:render a "INVEST"^^xsd:string .
+
+INVEST:replace a "INVEST"^^xsd:string .
+
+INVEST:represent a "INVEST"^^xsd:string .
+
+INVEST:require a "INVEST"^^xsd:string .
+
+INVEST:reveal a "INVEST"^^xsd:string .
+
+INVEST:rise a "INVEST"^^xsd:string .
+
+INVEST:run a "INVEST"^^xsd:string .
+
+INVEST:satisfy a "INVEST"^^xsd:string .
+
+INVEST:see a "INVEST"^^xsd:string .
+
+INVEST:seek a "INVEST"^^xsd:string .
+
+INVEST:send a "INVEST"^^xsd:string .
+
+INVEST:set a "INVEST"^^xsd:string .
+
+INVEST:shed a "INVEST"^^xsd:string .
+
+INVEST:show a "INVEST"^^xsd:string .
+
+INVEST:simulate a "INVEST"^^xsd:string .
+
+INVEST:spend a "INVEST"^^xsd:string .
+
+INVEST:stabilize a "INVEST"^^xsd:string .
+
+INVEST:study a "INVEST"^^xsd:string .
+
+INVEST:suffer a "INVEST"^^xsd:string .
+
+INVEST:supervise a "INVEST"^^xsd:string .
+
+INVEST:supplement a "INVEST"^^xsd:string .
+
+INVEST:support a "INVEST"^^xsd:string .
+
+INVEST:surge a "INVEST"^^xsd:string .
+
+INVEST:tackle a "INVEST"^^xsd:string .
+
+INVEST:take a "INVEST"^^xsd:string .
+
+INVEST:tend a "INVEST"^^xsd:string .
+
+INVEST:test a "INVEST"^^xsd:string .
+
+INVEST:train a "INVEST"^^xsd:string .
+
+INVEST:translate a "INVEST"^^xsd:string .
+
+INVEST:undergo a "INVEST"^^xsd:string .
+
+INVEST:use a "INVEST"^^xsd:string .
+
+INVEST:utilize a "INVEST"^^xsd:string .
+
+INVEST:verify a "INVEST"^^xsd:string .
+
+INVEST:view a "INVEST"^^xsd:string .
+
+INVEST:violate a "INVEST"^^xsd:string .
+
+INVEST:will a "INVEST"^^xsd:string .
+
+INVEST:work a "INVEST"^^xsd:string .
+
+ns1:t a "IS_AUTHOR_OF"^^xsd:string .
+
+IS_AUTHOR_OF:be_never a "IS_AUTHOR_OF"^^xsd:string .
+
+IS_AUTHOR_OF:be_not a "IS_AUTHOR_OF"^^xsd:string .
+
+IS_AUTHOR_OF:is_author_of a "IS_AUTHOR_OF"^^xsd:string .
+
+MISCELLANEOUS:finetune a "MISCELLANEOUS"^^xsd:string ;
+    INVEST:use ORG:weak_label .
+
+NORP:indian_government a "NORP"^^xsd:string ;
+    INVEST:follow GPE:China .
+
+OPTIMIZE:optimize a "OPTIMIZE"^^xsd:string .
+
+ORG:Abeer_ElBahrawy a "ORG"^^xsd:string ;
+    INVEST:adopt ORG:an_ecological_perspective .
+
+ORG:BTC a "ORG"^^xsd:string ;
+    INVEST:be ORG:fair .
+
+ORG:Bitcoin_price a "ORG"^^xsd:string ;
+    INVEST:push ORG:during_rapid_decline .
+
+ORG:Bitcoin_price_behaviour a "ORG"^^xsd:string ;
+    INVEST:be ORG:largely_unexplored .
+
+ORG:Bitcoin_return a "ORG"^^xsd:string ;
+    INVEST:use ORG:as_input_feature .
+
+ORG:Bitcoin_value a "ORG"^^xsd:string ;
+    INVEST:build ORG:upon_community_trust .
+
+ORG:Etheroll a "ORG"^^xsd:string ;
+    INVEST:be ORG:a_dice_game .
+
+ORG:F a "ORG"^^xsd:string ;
+    INVEST:be ORG:highly_non_-_linear .
+
+ORG:Fiat_money a "ORG"^^xsd:string ;
+    INVEST:consist ORG:of_IOUs .
+
+ORG:Fundamental_Information a "ORG"^^xsd:string ;
+    INVEST:combine ORG:with_Technicals .
+
+ORG:Funding_Rates a "ORG"^^xsd:string ;
+    CORRELATE:correlate ORG:to_Exchange_Rate .
+
+ORG:GARCH_volatility a "ORG"^^xsd:string ;
+    INVEST:combine ORDINAL:first .
+
+ORG:GCN a "ORG"^^xsd:string ;
+    INVEST:be ORG:of_special_interest ;
+    INVEST:use ORG:logistic_regression .
+
+ORG:Higor a "ORG"^^xsd:string ;
+    INVEST:take ORG:together .
+
+ORG:Jumps a "ORG"^^xsd:string ;
+    INVEST:be ORG:frequent_event .
+
+ORG:LASSO a "ORG"^^xsd:string ;
+    REGULARIZE:regularize ORG:GML .
+
+ORG:LSTM a "ORG"^^xsd:string ;
+    INVEST:achieve ORG:well_prediction_performance ;
+    INVEST:be ORG:a_good_factor ;
+    INVEST:miss ORG:a_large_leap .
+
+ORG:Nicola_Uras a "ORG"^^xsd:string ;
+    INVEST:represent ORG:different_price_regime .
+
+ORG:PCA a "ORG"^^xsd:string ;
+    INVEST:apply ORG:on_each_subset .
+
+ORG:Reaz_Chowdhury a "ORG"^^xsd:string ;
+    INVEST:get ORG:the_good_output ;
+    INVEST:use ORG:several_machine .
+
+ORG:SegWit a "ORG"^^xsd:string ;
+    INVEST:deal ORG:with_this_issue .
+
+ORG:TME_and_GBM a "ORG"^^xsd:string ;
+    OUTPERFORM:outperform ORG:econometric_method .
+
+ORG:Tomaso_Aste a "ORG"^^xsd:string ;
+    IS_AUTHOR_OF:is_author_of ORG:Cryptocurrency_market_structure .
+
+ORG:Wikipedia a "ORG"^^xsd:string ;
+    INVEST:view ORG:on_BitCoin_price .
+
+ORG:XGB a "ORG"^^xsd:string ;
+    INVEST:take ORG:only_0.008_second .
+
+<http://crypto.org/ORG/a_'_money_-_machine_'> a "ORG"^^xsd:string ;
+    INVEST:produce ORG:unlimited_wealth .
+
+ORG:a_CEXs_user a "ORG"^^xsd:string ;
+    INVEST:deal ORG:with .
+
+ORG:a_cryptocurrency a "ORG"^^xsd:string ;
+    INVEST:know PERSON:for_Bitcoin .
+
+ORG:a_dedicated_server a "ORG"^^xsd:string ;
+    INVEST:find ORG:trade_opportunity .
+
+ORG:a_heuristic_algorithm a "ORG"^^xsd:string ;
+    INVEST:identify ORG:coin_miner .
+
+ORG:a_new_action a "ORG"^^xsd:string ;
+    INVEST:generate ORG:each_time .
+
+ORG:a_notable_example a "ORG"^^xsd:string ;
+    INVEST:be ORG:FTX_perpetual .
+
+ORG:a_novel_approach a "ORG"^^xsd:string ;
+    INVEST:call ORG:MRC_-_LSTM .
+
+ORG:a_proper_analysis a "ORG"^^xsd:string ;
+    INVEST:lack ORG:still .
+
+ORG:a_reference_level a "ORG"^^xsd:string ;
+    PRECEDE:precede ORG:the_jump .
+
+ORG:a_strong_innovation a "ORG"^^xsd:string ;
+    INVEST:take ORG:place .
+
+ORG:a_technologically_product a "ORG"^^xsd:string ;
+    INVEST:be ORG:originally .
+
+ORG:a_user a "ORG"^^xsd:string ;
+    INVEST:receive ORG:multiple_address ;
+    INVEST:send ORG:cryptocurrencie .
+
+ORG:act a "ORG"^^xsd:string ;
+    INVEST:maintain ORG:across_time .
+
+ORG:agent_action a "ORG"^^xsd:string ;
+    INVEST:demonstrate ORG:in_test_phase .
+
+ORG:algorithmic_trading a "ORG"^^xsd:string ;
+    INVEST:receive ORG:less_attention .
+
+ORG:all_other_variable a "ORG"^^xsd:string ;
+    INVEST:be ORG:consistent .
+
+ORG:all_product a "ORG"^^xsd:string ;
+    INVEST:offer ORG:similar_effectiveness .
+
+ORG:all_these_parameter a "ORG"^^xsd:string ;
+    INVEST:affect ORG:the_hedging_effectiveness .
+
+ORG:an_attacker a "ORG"^^xsd:string ;
+    INVEST:make ORG:a_double_spend .
+
+ORG:an_open_issue a "ORG"^^xsd:string ;
+    INVEST:be ORG:now .
+
+ORG:another_asset a "ORG"^^xsd:string ;
+    INVEST:be ORG:in_distress .
+
+ORG:another_external_factor a "ORG"^^xsd:string ;
+    INVEST:push ORG:the_system .
+
+ORG:another_idea a "ORG"^^xsd:string ;
+    INVEST:combine ORG:Random_Forest .
+
+ORG:another_related_issue a "ORG"^^xsd:string ;
+    INVEST:be ORG:the_MST_construction .
+
+ORG:arbitrageur a "ORG"^^xsd:string ;
+    INVEST:take ORG:advantage .
+
+ORG:as_loan_collateral a "ORG"^^xsd:string ;
+    TRANSFER:not_accept ORG:yet .
+
+ORG:bank a "ORG"^^xsd:string ;
+    ns1:t ORG:yet .
+
+ORG:between_investor a "ORG"^^xsd:string ;
+    INVEST:consider ORG:economic_and_politic .
+
+<http://crypto.org/ORG/bitcoin_'s_developer> a "ORG"^^xsd:string ;
+    INVEST:combine ORG:technical_implementation_proficiency .
+
+ORG:bitcoin_actor a "ORG"^^xsd:string ;
+    INVEST:be ORG:pseudonymous .
+
+ORG:bitcoin_discussion a "ORG"^^xsd:string ;
+    INVEST:take ORG:place .
+
+ORG:bitcoin_market_maker a "ORG"^^xsd:string ;
+    INVEST:adjust ORG:price .
+
+ORG:bitcoin_price_series a "ORG"^^xsd:string ;
+    INVEST:obtain GPE:from_Binance .
+
+ORG:bitcoin_return a "ORG"^^xsd:string ;
+    INVEST:show ORG:aggregational_Gaussianity .
+
+ORG:bitcoin_trader a "ORG"^^xsd:string ;
+    PREVAIL:prevail ORG:market_condition .
+
+ORG:bot a "ORG"^^xsd:string ;
+    INVEST:convert CARDINAL:between_two_coin .
+
+ORG:briber a "ORG"^^xsd:string ;
+    COLLUDE:collude ORG:with_miner ;
+    INVEST:spend <http://crypto.org/ORG/briber_'s_cryptocurrencie> ;
+    TRANSFER:not_implement ORG:a_bribe ;
+    TRANSFER:not_transfer PERSON:Ethereum_blockchain .
+
+ORG:bribery a "ORG"^^xsd:string ;
+    INVEST:be ORG:an_inevitable_problem ;
+    IS_AUTHOR_OF:be_not ORG:common .
+
+ORG:bull_market a "ORG"^^xsd:string ;
+    INVEST:run ORG:in_late_2020 .
+
+ORG:by_LSTM a "ORG"^^xsd:string ;
+    INVEST:obtain ORG:the_low_error .
+
+ORG:by_neutral_dynamic a "ORG"^^xsd:string ;
+    TRANSFER:not_generate ORG:the_community_dynamic .
+
+ORG:by_news a "ORG"^^xsd:string ;
+    TRANSFER:not_explain ORG:large_price_jump .
+
+ORG:by_previous_study a "ORG"^^xsd:string ;
+    INVEST:reveal ORG:a_feature .
+
+ORG:by_problem a "ORG"^^xsd:string ;
+    INVEST:accompany ORG:innovation .
+
+ORG:certain_proponent a "ORG"^^xsd:string ;
+    INVEST:have ORG:no_transparency .
+
+ORG:classical_finance_methodology a "ORG"^^xsd:string ;
+    INVEST:be MISCELLANEOUS:inapplicable .
+
+ORG:complex_trading_pattern a "ORG"^^xsd:string ;
+    INVEST:follow ORG:often .
+
+ORG:computational_complexity a "ORG"^^xsd:string ;
+    IS_AUTHOR_OF:be_not ORG:a_concern .
+
+ORG:countermeasure_that a "ORG"^^xsd:string ;
+    INVEST:be ORG:applicable .
+
+ORG:crypto_-_market a "ORG"^^xsd:string ;
+    INVEST:be ORG:essentially_unpredictable ;
+    INVEST:follow ORG:a_random_walk .
+
+ORG:crypto_exchange a "ORG"^^xsd:string ;
+    INVEST:exhibit ORG:much_high_interconnectedness .
+
+<http://crypto.org/ORG/cryptocurrencie_'s_quotation> a "ORG"^^xsd:string ;
+    INVEST:be ORG:totally_self_-_reference .
+
+ORG:cryptocurrencie_CCs a "ORG"^^xsd:string ;
+    INVEST:become ORG:more_interesting .
+
+ORG:cryptocurrency a "ORG"^^xsd:string ;
+    INVEST:receive ORG:wide_acceptance .
+
+ORG:cryptocurrency_asset a "ORG"^^xsd:string ;
+    INVEST:rise ORG:significantly .
+
+ORG:cryptocurrency_market a "ORG"^^xsd:string ;
+    INVEST:attract ORG:many_interest ;
+    INVEST:exhibit ORG:strong_volatility .
+
+ORG:cryptocurrency_option_be a "ORG"^^xsd:string ;
+    INVEST:grow ORG:increasingly_popular .
+
+ORG:data a "ORG"^^xsd:string ;
+    INVEST:set ORG:granular .
+
+ORG:deribit_trading_volume a "ORG"^^xsd:string ;
+    INVEST:increase ORG:enormously .
+
+ORG:directional_learning_effect a "ORG"^^xsd:string ;
+    INVEST:be ORG:more_pronounced .
+
+ORG:each_player a "ORG"^^xsd:string ;
+    INVEST:earn ORG:coin ;
+    INVEST:play ORG:the_game .
+
+ORG:ecological_dataset a "ORG"^^xsd:string ;
+    INVEST:be ORG:generally_scarce .
+
+ORG:electricity_generation a "ORG"^^xsd:string ;
+    INVEST:be ORG:especially_carbon_-_intensive .
+
+ORG:equity_trade_volume a "ORG"^^xsd:string ;
+    INVEST:tend ORG:to_be_large .
+
+ORG:every_thing_else a "ORG"^^xsd:string ;
+    INVEST:be ORG:equal .
+
+ORG:experience a "ORG"^^xsd:string ;
+    INVEST:have DATE:during_several_year .
+
+ORG:expert a "ORG"^^xsd:string ;
+    INVEST:use ORG:sophisticated_tool .
+
+ORG:expert_user a "ORG"^^xsd:string ;
+    INVEST:make ORG:profit .
+
+ORG:extreme_price_fluctuation a "ORG"^^xsd:string ;
+    INVEST:be ORG:considerably_more_frequent .
+
+ORG:few_people a "ORG"^^xsd:string ;
+    INVEST:fall ORG:victim .
+
+ORG:finite a "ORG"^^xsd:string ;
+    INVEST:remain <http://crypto.org/ORG/as_N_→_∞.> .
+
+ORG:fundamental_information a "ORG"^^xsd:string ;
+    INVEST:combine ORG:with_technical .
+
+ORG:future_analysis a "ORG"^^xsd:string ;
+    INVEST:gain ORG:more_insight .
+
+ORG:future_successful_cryptocurrencie a "ORG"^^xsd:string ;
+    INVEST:behave ORG:how .
+
+ORG:future_work a "ORG"^^xsd:string ;
+    INVEST:relate ORG:to_the_machine ;
+    INVEST:take ORG:multiple_direction .
+
+ORG:good_uncertainty_measure a "ORG"^^xsd:string ;
+    INVEST:satisfy ORG:the_requirement_that .
+
+ORG:government a "ORG"^^xsd:string ;
+    INVEST:manufacture ORG:money .
+
+ORG:graph a "ORG"^^xsd:string ;
+    INVEST:be ORG:more_compact .
+
+ORG:greater_privacy a "ORG"^^xsd:string ;
+    INVEST:include ORG:here .
+
+ORG:historical_volatility a "ORG"^^xsd:string ;
+    INVEST:be ORG:only_meaningful .
+
+ORG:how_many_people a "ORG"^^xsd:string ;
+    INVEST:be ORG:mine .
+
+ORG:hq a "ORG"^^xsd:string ;
+    INVEST:be <http://crypto.org/CARDINAL/less_than_1/2> .
+
+ORG:income a "ORG"^^xsd:string ;
+    INVEST:generate ORG:from_cryptocurrencie .
+
+ORG:instrument a "ORG"^^xsd:string ;
+    INVEST:have ORG:similar_hedging_effectiveness .
+
+ORG:into_consideration a "ORG"^^xsd:string ;
+    INVEST:take ORG:when .
+
+ORG:investor a "ORG"^^xsd:string ;
+    INVEST:buy ORG:available_alternative ;
+    INVEST:got ORG:force_liquidation ;
+    INVEST:seek ORG:a_diversified_portfolio ;
+    UNDERESTIMATE:underestimate ORG:potential_loss .
+
+ORG:investor_and_trader a "ORG"^^xsd:string ;
+    INVEST:analyze NORP:a_Bitcoin_investment .
+
+ORG:linear_law a "ORG"^^xsd:string ;
+    INVEST:become ORG:more_complex .
+
+ORG:linear_model a "ORG"^^xsd:string ;
+    INVEST:train ORG:then .
+
+ORG:long_route a "ORG"^^xsd:string ;
+    INVEST:be ORG:more_expensive .
+
+ORG:long_term_profit a "ORG"^^xsd:string ;
+    INVEST:provide ORG:to_the_user .
+
+ORG:machine a "ORG"^^xsd:string ;
+    INVEST:learn ORG:algorithm_and_model .
+
+ORG:main_fiat_currency a "ORG"^^xsd:string ;
+    INVEST:be ORG:trade .
+
+ORG:many_cryptocurrencie a "ORG"^^xsd:string ;
+    INVEST:have ORG:low_liquidity .
+
+ORG:many_investor a "ORG"^^xsd:string ;
+    INVEST:generate ORG:unlimited_profit .
+
+ORG:many_uninformed_trader a "ORG"^^xsd:string ;
+    INVEST:move ORG:price .
+
+ORG:market a "ORG"^^xsd:string ;
+    INVEST:use ORG:ATM_option .
+
+ORG:market_efficiency a "ORG"^^xsd:string ;
+    INVEST:improve DATE:after_2013 .
+
+ORG:market_regulator a "ORG"^^xsd:string ;
+    INVEST:pay ORG:more_attention .
+
+ORG:marketplace a "ORG"^^xsd:string ;
+    INVEST:use ORG:such_distribution_pattern .
+
+ORG:mining a "ORG"^^xsd:string ;
+    INVEST:become MISCELLANEOUS:unprofitable ;
+    INVEST:use ORG:too_much_energy .
+
+ORG:model a "ORG"^^xsd:string ;
+    INVEST:allow ORG:for_jump_risk .
+
+ORG:more_favourable_forecast a "ORG"^^xsd:string ;
+    INVEST:produce ORG:always .
+
+ORG:most_cryptocurrencie a "ORG"^^xsd:string ;
+    INVEST:follow ORG:a_decrease_trend .
+
+ORG:most_trader a "ORG"^^xsd:string ;
+    INVEST:pursue ORG:volatility_information .
+
+ORG:multiple_network_feature a "ORG"^^xsd:string ;
+    CHARACTERIZE:characterize ORG:decentralization_dynamic .
+
+ORG:net_buying_pressure a "ORG"^^xsd:string ;
+    INVEST:grow ORG:rapidly .
+
+ORG:new_information a "ORG"^^xsd:string ;
+    INVEST:violate ORG:old_expectation .
+
+ORG:new_method a "ORG"^^xsd:string ;
+    INVEST:describe ORG:option_price .
+
+ORG:new_money a "ORG"^^xsd:string ;
+    INVEST:distribute ORG:to_all_participant .
+
+ORG:new_trading_platform a "ORG"^^xsd:string ;
+    INVEST:become ORG:available .
+
+ORG:no_new_information a "ORG"^^xsd:string ;
+    INVEST:be ORG:available .
+
+ORG:no_one a "ORG"^^xsd:string ;
+    INVEST:cheat ORG:transaction .
+
+ORG:noise_or_fluctuation a "ORG"^^xsd:string ;
+    INVEST:reduce ORG:in_time_interval .
+
+ORG:non_-_biological_system a "ORG"^^xsd:string ;
+    INVEST:have ORG:an_important_role .
+
+ORG:non_-_null_feedback a "ORG"^^xsd:string ;
+    INVEST:be MISCELLANEOUS:infrequent .
+
+ORG:other_research a "ORG"^^xsd:string ;
+    INVEST:use ORG:mining_cost .
+
+ORG:out_-_degree a "ORG"^^xsd:string ;
+    INVEST:be ORG:particularly_informative_property .
+
+ORG:parameter a "ORG"^^xsd:string ;
+    RECALCULATE:recalculate ORG:after_each_jump .
+
+ORG:people a "ORG"^^xsd:string ;
+    INVEST:see ORG:some_value .
+
+ORG:per_unit_cost a "ORG"^^xsd:string ;
+    INVEST:be ORG:small .
+
+ORG:pool a "ORG"^^xsd:string ;
+    INVEST:be ORG:public .
+
+ORG:portfolio_diversification a "ORG"^^xsd:string ;
+    INVEST:be ORG:a_reasonable_practice .
+
+ORG:potentially_susceptible_investor a "ORG"^^xsd:string ;
+    INVEST:become ORG:victim .
+
+ORG:practitioner a "ORG"^^xsd:string ;
+    INVEST:assume ORG:this_scenario .
+
+ORG:predictability a "ORG"^^xsd:string ;
+    INVEST:translate ORG:to_trading_profit .
+
+ORG:price_-_price_dependency a "ORG"^^xsd:string ;
+    INVEST:have ORG:large_correlation .
+
+ORG:private_smart_contract a "ORG"^^xsd:string ;
+    INVEST:be ORG:complex .
+
+ORG:query a "ORG"^^xsd:string ;
+    INVEST:become ORG:increasingly_difficult .
+
+ORG:researcher a "ORG"^^xsd:string ;
+    TRANSFER:not_claim ORG:a_Decentralization .
+
+ORG:self a "ORG"^^xsd:string ;
+    INVEST:supervise ORG:GNN .
+
+ORG:significant_cross_-_impact a "ORG"^^xsd:string ;
+    INVEST:take ORG:place .
+
+<http://crypto.org/ORG/simple_trading_strategy_,> a "ORG"^^xsd:string ;
+    INVEST:lead ORG:to_financial_gain .
+
+ORG:skilled_arbitrageur a "ORG"^^xsd:string ;
+    INCUR:incur ORG:potential_loss ;
+    INVEST:execute ORG:many_arbitrage_action .
+
+ORG:social_medium_sentiment a "ORG"^^xsd:string ;
+    CORRELATE:correlate ORG:with_cryptocurrency_price .
+
+ORG:social_network a "ORG"^^xsd:string ;
+    INVEST:play ORG:an_active_role .
+
+ORG:social_signal a "ORG"^^xsd:string ;
+    INVEST:reduce ORG:error .
+
+ORG:some_cryptocurrency_exchange a "ORG"^^xsd:string ;
+    TRANSFER:not_allow ORG:short_selling .
+
+ORG:some_miner a "ORG"^^xsd:string ;
+    INVEST:involve ORG:in_collusion .
+
+ORG:specialized_ASIC_miner a "ORG"^^xsd:string ;
+    INVEST:be ORG:extremely_fast .
+
+ORG:speculation a "ORG"^^xsd:string ;
+    INVEST:affect ORG:BitCoin_price .
+
+ORG:speculator a "ORG"^^xsd:string ;
+    INVEST:cause ORG:a_market_crash ;
+    REVERT:revert ORG:the_trend .
+
+ORG:splitting_order a "ORG"^^xsd:string ;
+    INVEST:involve ORG:complex_strategy .
+
+ORG:stable_model a "ORG"^^xsd:string ;
+    INVEST:work ORG:in_practical_application .
+
+ORG:standard a "ORG"^^xsd:string ;
+    INVEST:be ORG:nowadays .
+
+ORG:startup a "ORG"^^xsd:string ;
+    INVEST:use ORG:ICOs .
+
+ORG:store_connection a "ORG"^^xsd:string ;
+    INVEST:require <http://crypto.org/ORG/resource_(_e.g.> .
+
+ORG:such_a_shift a "ORG"^^xsd:string ;
+    TRANSFER:not_remove ORG:the_cross_-_correlation .
+
+ORG:such_an_instrument a "ORG"^^xsd:string ;
+    INVEST:offer ORG:much_great_stability .
+
+ORG:such_event a "ORG"^^xsd:string ;
+    INVEST:measure ORG:a_methodology .
+
+ORG:such_extension a "ORG"^^xsd:string ;
+    INCUR:endanger PERSON:the_Markov_property ;
+    INVEST:introduce ORG:new_technical_challenge .
+
+ORG:such_regulation a "ORG"^^xsd:string ;
+    INVEST:be ORG:effective .
+
+ORG:tail a "ORG"^^xsd:string ;
+    INVEST:become ORG:progressively_heavy .
+
+ORG:technological_advancement a "ORG"^^xsd:string ;
+    TRANSFER:not_be ORG:key .
+
+ORG:technology a "ORG"^^xsd:string ;
+    INVEST:become ORG:more_expensive .
+
+ORG:tensorflow_package a "ORG"^^xsd:string ;
+    INVEST:analyze ORG:research_topic .
+
+ORG:that_debt a "ORG"^^xsd:string ;
+    INVEST:destroy ORG:wealth .
+
+ORG:that_different_mechanism a "ORG"^^xsd:string ;
+    INVEST:take ORG:into_account .
+
+ORG:that_important_phenomenon a "ORG"^^xsd:string ;
+    INVEST:leave MISCELLANEOUS:unexplained .
+
+ORG:the_account a "ORG"^^xsd:string ;
+    INVEST:divide CARDINAL:into_three_category .
+
+ORG:the_agency_relationship a "ORG"^^xsd:string ;
+    TRANSFER:not_take ORG:place .
+
+ORG:the_asset_class a "ORG"^^xsd:string ;
+    INVEST:gain ORG:further_prominence .
+
+ORG:the_citizen a "ORG"^^xsd:string ;
+    INVEST:have ORG:great_economic_freedom .
+
+ORG:the_community a "ORG"^^xsd:string ;
+    TRANSFER:not_value ORG:this_feature .
+
+ORG:the_disposition_effect a "ORG"^^xsd:string ;
+    INVEST:be ORG:very_prominently_evident .
+
+ORG:the_eigenvector a "ORG"^^xsd:string ;
+    INVEST:represent ORG:small_eigenvalue ;
+    REGULARIZE:normalize ORG:to_unit_length .
+
+ORG:the_energy_consumption a "ORG"^^xsd:string ;
+    INVEST:be ORG:constant_in_equilibrium .
+
+ORG:the_environment a "ORG"^^xsd:string ;
+    INVEST:contain ORG:noisy_information .
+
+ORG:the_equivalence a "ORG"^^xsd:string ;
+    INVEST:render ORG:a_tautology .
+
+ORG:the_exist_evidence a "ORG"^^xsd:string ;
+    INVEST:be MISCELLANEOUS:inconclusive .
+
+ORG:the_feature_engineering a "ORG"^^xsd:string ;
+    INVEST:require ORG:much_human_effort .
+
+ORG:the_fit a "ORG"^^xsd:string ;
+    INVEST:perform ORG:on_many_window .
+
+ORG:the_forecasting_accuracy a "ORG"^^xsd:string ;
+    TRANSFER:not_improve ORG:always .
+
+ORG:the_genesis_block a "ORG"^^xsd:string ;
+    INVEST:be ORG:mine .
+
+ORG:the_identify_action a "ORG"^^xsd:string ;
+    INVEST:be ORG:true_positive .
+
+ORG:the_interconnection a "ORG"^^xsd:string ;
+    INVEST:remain ORG:quite_stable .
+
+ORG:the_large_feature a "ORG"^^xsd:string ;
+    INVEST:set CARDINAL:6 .
+
+ORG:the_large_value a "ORG"^^xsd:string ;
+    INVEST:show ORG:poor_multifractal_behaviour .
+
+ORG:the_log_-_volatility a "ORG"^^xsd:string ;
+    INVEST:have ORG:multifractal_property .
+
+ORG:the_measured_impact a "ORG"^^xsd:string ;
+    INVEST:be ORG:no_long_significant .
+
+ORG:the_mining a "ORG"^^xsd:string ;
+    INVEST:get ORG:a_reward .
+
+ORG:the_model a "ORG"^^xsd:string ;
+    INVEST:obtain ORG:highly_expressive_feature ;
+    INVEST:recommend ORG:smart_decision .
+
+ORG:the_ols a "ORG"^^xsd:string ;
+    INVEST:compare ORG:with_BQR_approach .
+
+ORG:the_present_study a "ORG"^^xsd:string ;
+    INVEST:shed ORG:additional_light .
+
+ORG:the_price a "ORG"^^xsd:string ;
+    INVEST:have <http://crypto.org/ORG/extreme_,_unexpected_crash> .
+
+ORG:the_rate a "ORG"^^xsd:string ;
+    INVEST:obtain ORG:from_these_conversion .
+
+ORG:the_red_dot a "ORG"^^xsd:string ;
+    INVEST:indicate ORG:a_short_position .
+
+<http://crypto.org/ORG/the_research_'s> a "ORG"^^xsd:string ;
+    INVEST:have ORG:some_noticeable_advantage .
+
+ORG:the_research_tool a "ORG"^^xsd:string ;
+    INVEST:be ORG:python_programming_language .
+
+ORG:the_result a "ORG"^^xsd:string ;
+    INVEST:improve PERCENT:by_15 .
+
+ORG:the_scene a "ORG"^^xsd:string ;
+    INVEST:dominate DATE:since_December_2021 .
+
+ORG:the_score_function a "ORG"^^xsd:string ;
+    INVEST:know ORG:as_bimodular_surprise .
+
+ORG:the_stacking_ensemble a "ORG"^^xsd:string ;
+    INVEST:be ORG:functional_in_fine .
+
+<http://crypto.org/ORG/the_strategy_α_*> a "ORG"^^xsd:string ;
+    INVEST:use ORG:all_other_player .
+
+<http://crypto.org/ORG/the_system_'s> a "ORG"^^xsd:string ;
+    INVEST:undergo ORG:stochastic_perturbation .
+
+ORG:the_valuation_method a "ORG"^^xsd:string ;
+    INVEST:inform ORG:investment_return .
+
+ORG:the_vast_majority a "ORG"^^xsd:string ;
+    INVEST:perform ORG:very_few .
+
+ORG:these_community a "ORG"^^xsd:string ;
+    INVEST:carry ORG:the_fraud .
+
+ORG:these_empirical_finding a "ORG"^^xsd:string ;
+    INVEST:compare ORG:with_several_model .
+
+ORG:these_figure a "ORG"^^xsd:string ;
+    INVEST:represent ORG:a_lower_bind .
+
+ORG:these_finding a "ORG"^^xsd:string ;
+    INVEST:supplement ORG:Vaiva_Vasiliauskaite .
+
+ORG:these_remarkable_property a "ORG"^^xsd:string ;
+    INVEST:study ORG:in_future_direction .
+
+ORG:these_statistical_pattern a "ORG"^^xsd:string ;
+    IS_AUTHOR_OF:be_not ORG:consistent_with_neutrality .
+
+ORG:these_structural_feature a "ORG"^^xsd:string ;
+    INVEST:be ORG:far .
+
+ORG:these_trader a "ORG"^^xsd:string ;
+    INVEST:seek ORG:risk_and_excitement .
+
+ORG:thin_-_tail_distribution a "ORG"^^xsd:string ;
+    INVEST:present ORG:when .
+
+ORG:this_atypical_behaviour a "ORG"^^xsd:string ;
+    INVEST:open ORG:the_door .
+
+ORG:this_discovery a "ORG"^^xsd:string ;
+    INVEST:shed ORG:light .
+
+ORG:this_paper a "ORG"^^xsd:string ;
+    INVEST:extend ORG:the_DRLMM_framework .
+
+ORG:this_parameterisation a "ORG"^^xsd:string ;
+    INVEST:employ CARDINAL:only_3_parameter .
+
+ORG:this_research a "ORG"^^xsd:string ;
+    INVEST:employ ORG:economic_theory .
+
+ORG:this_result a "ORG"^^xsd:string ;
+    INVEST:miss ORG:generality .
+
+ORG:this_study a "ORG"^^xsd:string ;
+    INVEST:fill ORG:this_knowledge_gap ;
+    INVEST:incorporate ORG:exogenous_variable .
+
+ORG:to_Xiaotong_Sun a "ORG"^^xsd:string ;
+    INVEST:observe ORG:spike .
+
+ORG:trader a "ORG"^^xsd:string ;
+    INVEST:learn ORG:from_trader ;
+    INVEST:make ORG:several_trading_decision ;
+    INVEST:use ORG:adaptive_investment_strategy .
+
+ORG:un a "ORG"^^xsd:string ;
+    INVEST:coordinate ORG:agent .
+
+ORG:uninformed_investor a "ORG"^^xsd:string ;
+    INVEST:dominate ORG:in_trading .
+
+ORG:unsupervised_clustering a "ORG"^^xsd:string ;
+    INVEST:be ORG:less_convincing .
+
+ORG:useful_insight a "ORG"^^xsd:string ;
+    INVEST:combine ORG:with_above_feature .
+
+ORG:user a "ORG"^^xsd:string ;
+    INVEST:become ORG:miner ;
+    INVEST:invest ORG:in_traditional_finance ;
+    INVEST:look ORG:at_alternative_cryptocurrencie ;
+    INVEST:pay MISCELLANEOUS:Namecoin ;
+    TRANSFER:not_trade ORG:with_each_other .
+
+ORG:venture_capital a "ORG"^^xsd:string ;
+    INVEST:replace ORG:loan .
+
+<http://crypto.org/ORG/volatility_'s_volatility> a "ORG"^^xsd:string ;
+    INVEST:stabilize ORG:at .
+
+ORG:α_greed a "ORG"^^xsd:string ;
+    INVEST:be ORG:self_-_reinforce ;
+    INVEST:generate ORG:β_fear .
+
+OUTPERFORM:outperform a "OUTPERFORM"^^xsd:string .
+
+PERSON:Abootaleb_Shirvani a "PERSON"^^xsd:string ;
+    INVEST:utilize ORG:subordinate_Lévy_process .
+
+PERSON:Alessandra_Cretarola a "PERSON"^^xsd:string ;
+    ENDORSE:endorse ORG:positive_evidence ;
+    INVEST:consider ORG:a_bivariate_model .
+
+PERSON:Alexandre_Bovet a "PERSON"^^xsd:string ;
+    INVEST:achieve ORG:analyse ;
+    INVEST:find <http://crypto.org/ORG/that_hub_(_i.e.> ;
+    INVEST:perform ORG:additional_analysis .
+
+PERSON:Andrea_Barbon a "PERSON"^^xsd:string ;
+    INVEST:give ORG:these_insight .
+
+PERSON:Andrew_Spurr a "PERSON"^^xsd:string ;
+    INVEST:support ORG:this_analysis .
+
+PERSON:Antonio_Briola a "PERSON"^^xsd:string ;
+    INVEST:investigate ORG:pairwise_correlation .
+
+PERSON:Aurelio_F._Bariviera a "PERSON"^^xsd:string ;
+    INVEST:use ORG:transaction_datum .
+
+PERSON:Bitcoin_Bitcoin a "PERSON"^^xsd:string ;
+    INVEST:approach ORG:a_maturity_regime .
+
+PERSON:Brian_P._Hanley a "PERSON"^^xsd:string ;
+    INVEST:take ORG:for_grant .
+
+PERSON:Carey_Caginalp a "PERSON"^^xsd:string ;
+    INVEST:utilize ORG:optimization_method .
+
+PERSON:Carol_Alexander a "PERSON"^^xsd:string ;
+    INVEST:have PERSON:document_in_bitcoin .
+
+PERSON:Chengyi_Tu a "PERSON"^^xsd:string ;
+    INVEST:tackle ORG:this_problem .
+
+PERSON:David_Garcia a "PERSON"^^xsd:string ;
+    INVEST:verify ORG:very_high_profit .
+
+PERSON:David_Zhao a "PERSON"^^xsd:string ;
+    INVEST:test ORG:various_classification_method ;
+    INVEST:translate ORG:the_result_prediction .
+
+PERSON:Edgardo_Brigatti a "PERSON"^^xsd:string ;
+    INVEST:shed ORG:a_light .
+
+PERSON:Fan_Fang a "PERSON"^^xsd:string ;
+    INVEST:identify ORG:along_the_line .
+
+PERSON:Fiammetta_Menchetti a "PERSON"^^xsd:string ;
+    INVEST:derive ORG:hypothesis_test .
+
+PERSON:Friedhelm_Victor a "PERSON"^^xsd:string ;
+    INVEST:set ORG:several_parameter .
+
+PERSON:Jakob_Albers a "PERSON"^^xsd:string ;
+    INVEST:define ORG:later_base ;
+    INVEST:find PERSON:highly_negative_PnLs ;
+    INVEST:implement ORG:real_capital .
+
+PERSON:Jamal_Bouoiyour a "PERSON"^^xsd:string ;
+    INVEST:look PERSON:at_Bitcoin .
+
+PERSON:Jan_-_Christian_Gerlach a "PERSON"^^xsd:string ;
+    INVEST:employ ORG:a_clustering_method .
+
+PERSON:Jarosław_Kwapień a "PERSON"^^xsd:string ;
+    TRANSFER:not_observe ORG:such_an_effect .
+
+PERSON:Jatin_Nainani a "PERSON"^^xsd:string ;
+    INVEST:provide ORG:an_interface .
+
+PERSON:Jiaqi_Liang a "PERSON"^^xsd:string ;
+    INVEST:find ORG:similar_growth_pattern .
+
+PERSON:John_E._Marthinsen a "PERSON"^^xsd:string ;
+    INVEST:do ORG:so .
+
+PERSON:Jonathan_Donier a "PERSON"^^xsd:string ;
+    DECOMPOSE:decompose ORG:the_order_flow .
+
+PERSON:Josselin_Garnier a "PERSON"^^xsd:string ;
+    TRANSFER:not_consider DATE:intraday_effect .
+
+PERSON:Jovanka_Lili_Matic a "PERSON"^^xsd:string ;
+    IS_AUTHOR_OF:is_author_of ORG:Hedging_Cryptocurrency_Options .
+
+PERSON:Kazuki_Ikeda a "PERSON"^^xsd:string ;
+    INVEST:employ ORG:quantum_digital_signature .
+
+PERSON:Konstantin_Häusler a "PERSON"^^xsd:string ;
+    INVEST:identify ORG:several_recur_pattern .
+
+PERSON:Ladislav_Kristoufek a "PERSON"^^xsd:string ;
+    INVEST:contribute ORG:to_the_discussion .
+
+PERSON:Laura_Alessandretti a "PERSON"^^xsd:string ;
+    INVEST:use ORG:this_approach .
+
+PERSON:Luisanna_Cocco a "PERSON"^^xsd:string ;
+    INVEST:gather ORG:financial_datum .
+
+PERSON:Marcin_Wątorek a "PERSON"^^xsd:string ;
+    INVEST:interpret ORG:this_stability .
+
+PERSON:Marco_Alberto_Javarone a "PERSON"^^xsd:string ;
+    INVEST:reach ORG:this_goal .
+
+PERSON:Maria_Glenski a "PERSON"^^xsd:string ;
+    INVEST:calculate DATE:lifetime ;
+    INVEST:describe ORG:data_collection .
+
+PERSON:Mark_Weber a "PERSON"^^xsd:string ;
+    INVEST:inspire ORG:other .
+
+PERSON:Matthias_Pelster a "PERSON"^^xsd:string ;
+    INVEST:contribute ORG:to_this_literature .
+
+PERSON:Misha_Perepelitsa a "PERSON"^^xsd:string ;
+    INVEST:derive ORG:macroscale_ODE_model ;
+    INVEST:relate CARDINAL:one .
+
+PERSON:Mohsen_Asgari a "PERSON"^^xsd:string ;
+    INVEST:take CARDINAL:figure_11 ;
+    INVEST:use ORG:this_indicator .
+
+PERSON:Nektarios_Aslanidis a "PERSON"^^xsd:string ;
+    INVEST:become ORG:so .
+
+PERSON:Nemo_Semret a "PERSON"^^xsd:string ;
+    INVEST:build ORG:on_these_dynamic .
+
+PERSON:Nick_James a "PERSON"^^xsd:string ;
+    INVEST:apply ORG:hierarchical_clustering ;
+    INVEST:compare ORG:similarity ;
+    INVEST:explore ORG:evolutionary_correlation_behaviour ;
+    INVEST:investigate ORG:the_aforementione_association .
+
+PERSON:Olivier_Scaillet a "PERSON"^^xsd:string ;
+    INVEST:conduct ORG:such_a_study .
+
+PERSON:Pavel_Ciaian a "PERSON"^^xsd:string ;
+    INVEST:answer ORG:these_question ;
+    INVEST:apply ORG:a_GARCH_model .
+
+PERSON:Paz_Grimberg a "PERSON"^^xsd:string ;
+    INVEST:assume CARDINAL:zero_residual .
+
+PERSON:Peter_Reinhard_Hansen a "PERSON"^^xsd:string ;
+    INVEST:use ORG:datum .
+
+PERSON:Qiutong_Guo a "PERSON"^^xsd:string ;
+    INVEST:perform ORG:price_prediction ;
+    IS_AUTHOR_OF:is_author_of ORG:MRC-LSTM .
+
+PERSON:Ramit_Sawhney a "PERSON"^^xsd:string ;
+    IS_AUTHOR_OF:is_author_of ORG:Cryptocurrency_Bubble_Detection .
+
+PERSON:Shinji_Kakinaka a "PERSON"^^xsd:string ;
+    INVEST:address ORG:this_issue ;
+    INVEST:investigate ORG:the_multifractal_feature .
+
+PERSON:Shize_Qin a "PERSON"^^xsd:string ;
+    INVEST:focus ORG:the_discussion .
+
+PERSON:Shubhankar_Mohapatra a "PERSON"^^xsd:string ;
+    IS_AUTHOR_OF:is_author_of ORG:KryptoOracle .
+
+PERSON:Stanisław_Drożdż a "PERSON"^^xsd:string ;
+    INVEST:approach ORG:the_subject ;
+    INVEST:pay ORG:particular_attention .
+
+PERSON:Stjepan_Begušić a "PERSON"^^xsd:string ;
+    INVEST:analyze ORG:Bitcoin_trade_datum ;
+    INVEST:employ CARDINAL:two_method ;
+    INVEST:estimate ORG:the_scaling_exponent .
+
+PERSON:Tetsuo_Kurosaki a "PERSON"^^xsd:string ;
+    OPTIMIZE:optimize ORG:the_portfolio .
+
+PERSON:Tetsuya_Takaishi a "PERSON"^^xsd:string ;
+    INVEST:calculate ORG:kurtosis ;
+    INVEST:find ORG:some_exception ;
+    INVEST:perform ORG:the_parameter_estimation .
+
+PERSON:Tianyu_Ray_Li a "PERSON"^^xsd:string ;
+    INVEST:analyze PRODUCT:Twitter_signal .
+
+PERSON:Twitter_and_Reddit a "PERSON"^^xsd:string ;
+    INVEST:study ORG:public_sentiment .
+
+PERSON:Wai_Weng_Lo a "PERSON"^^xsd:string ;
+    IS_AUTHOR_OF:is_author_of ORG:Inspection-L .
+
+PERSON:Weili_Chen a "PERSON"^^xsd:string ;
+    INVEST:construct <http://crypto.org/CARDINAL/three_graph_(_i.e.> .
+
+PERSON:Xiaotong_Sun a "PERSON"^^xsd:string ;
+    INVEST:construct ORG:bribe_proxy ;
+    IS_AUTHOR_OF:is_author_of ORG:Bribes_to_Miners ;
+    TRANSFER:not_involve ORG:other_cryptocurrencie .
+
+PERSON:Yanzhao_Zou a "PERSON"^^xsd:string ;
+    INVEST:perform ORG:an_ablation_study .
+
+PERSON:Yeguang_Chi a "PERSON"^^xsd:string ;
+    INVEST:test ORG:various_volatility_model .
+
+PERSON:Yitao_Li a "PERSON"^^xsd:string ;
+    INVEST:hide ORG:co_-_movement .
+
+PERSON:Yoshi_Fujiwara a "PERSON"^^xsd:string ;
+    INVEST:extract ORG:the_NMF_component ;
+    INVEST:focus ORG:on_regular_user .
+
+PERSON:Yulin_Liu a "PERSON"^^xsd:string ;
+    INVEST:distribute ORG:the_trading_algorithm .
+
+PERSON:Z._Keskin a "PERSON"^^xsd:string ;
+    INVEST:detect ORG:significant_information_transfer ;
+    INVEST:perform ORG:significance_test .
+
+PERSON:Zeyd_Boukhers a "PERSON"^^xsd:string ;
+    ANALYSE:analyse ORG:the_sentiment ;
+    INVEST:combine ORG:several_source ;
+    INVEST:show ORG:a_great_support ;
+    INVEST:tackle ORG:RQ2 ;
+    INVEST:use ORG:both_model .
+
+PERSON:emotional_valence a "PERSON"^^xsd:string ;
+    INVEST:rise ORG:exchange_volume .
+
+PERSON:financially_totalitarian_regime a "PERSON"^^xsd:string ;
+    INVEST:have ORG:small_resource .
+
+PERSON:masood_Tadi a "PERSON"^^xsd:string ;
+    INVEST:choose ORG:an_exchange ;
+    INVEST:simulate ORG:the_trading_signal .
+
+PERSON:the_Bitcoin_return a "PERSON"^^xsd:string ;
+    TRANSFER:not_follow ORG:normal_distribution .
+
+PERSON:the_bitcoin a "PERSON"^^xsd:string ;
+    INVEST:imply ORG:volatility_curve .
+
+PERSON:tomaso_Aste a "PERSON"^^xsd:string ;
+    INVEST:have ORG:the_short_timeserie ;
+    INVEST:make ORG:many_choice .
+
+PERSON:wai_Weng_Lo a "PERSON"^^xsd:string ;
+    INVEST:train ORG:for_detection .
+
+PRECEDE:precede a "PRECEDE"^^xsd:string .
+
+PREVAIL:prevail a "PREVAIL"^^xsd:string .
+
+RECALCULATE:recalculate a "RECALCULATE"^^xsd:string .
+
+REGULARIZE:normalize a "REGULARIZE"^^xsd:string .
+
+REGULARIZE:regularize a "REGULARIZE"^^xsd:string .
+
+REVERT:revert a "REVERT"^^xsd:string .
+
+TIME:about_7.5_second a "TIME"^^xsd:string ;
+    INVEST:take ORG:usually .
+
+TRANSFER:not_accept a "TRANSFER"^^xsd:string .
+
+TRANSFER:not_allow a "TRANSFER"^^xsd:string .
+
+TRANSFER:not_be a "TRANSFER"^^xsd:string .
+
+TRANSFER:not_claim a "TRANSFER"^^xsd:string .
+
+TRANSFER:not_consider a "TRANSFER"^^xsd:string .
+
+TRANSFER:not_explain a "TRANSFER"^^xsd:string .
+
+TRANSFER:not_follow a "TRANSFER"^^xsd:string .
+
+TRANSFER:not_generate a "TRANSFER"^^xsd:string .
+
+TRANSFER:not_implement a "TRANSFER"^^xsd:string .
+
+TRANSFER:not_improve a "TRANSFER"^^xsd:string .
+
+TRANSFER:not_involve a "TRANSFER"^^xsd:string .
+
+TRANSFER:not_observe a "TRANSFER"^^xsd:string .
+
+TRANSFER:not_remove a "TRANSFER"^^xsd:string .
+
+TRANSFER:not_take a "TRANSFER"^^xsd:string .
+
+TRANSFER:not_trade a "TRANSFER"^^xsd:string .
+
+TRANSFER:not_transfer a "TRANSFER"^^xsd:string .
+
+TRANSFER:not_turn a "TRANSFER"^^xsd:string .
+
+TRANSFER:not_value a "TRANSFER"^^xsd:string .
+
+UNDERESTIMATE:underestimate a "UNDERESTIMATE"^^xsd:string .
+
+UNDERLIE:underlie a "UNDERLIE"^^xsd:string .
+
+WORK_OF_ART:voter_-_or_Moran a "WORK_OF_ART"^^xsd:string ;
+    UNDERLIE:underlie ORG:social_dynamic .
+
+CARDINAL:6 a "CARDINAL"^^xsd:string .
+
+CARDINAL:about_0.13_second a "CARDINAL"^^xsd:string .
+
+CARDINAL:between_two_coin a "CARDINAL"^^xsd:string .
+
+CARDINAL:figure_11 a "CARDINAL"^^xsd:string .
+
+CARDINAL:into_three_category a "CARDINAL"^^xsd:string .
+
+<http://crypto.org/CARDINAL/less_than_1/2> a "CARDINAL"^^xsd:string .
+
+CARDINAL:one a "CARDINAL"^^xsd:string .
+
+CARDINAL:only_3_parameter a "CARDINAL"^^xsd:string .
+
+<http://crypto.org/CARDINAL/three_graph_(_i.e.> a "CARDINAL"^^xsd:string .
+
+CARDINAL:two_method a "CARDINAL"^^xsd:string .
+
+CARDINAL:zero_residual a "CARDINAL"^^xsd:string .
+
+DATE:after_2013 a "DATE"^^xsd:string .
+
+DATE:during_several_year a "DATE"^^xsd:string .
+
+DATE:intraday_effect a "DATE"^^xsd:string .
+
+DATE:lifetime a "DATE"^^xsd:string .
+
+DATE:since_December_2021 a "DATE"^^xsd:string .
+
+GPE:China a "GPE"^^xsd:string .
+
+GPE:from_Binance a "GPE"^^xsd:string .
+
+MISCELLANEOUS:Namecoin a "MISCELLANEOUS"^^xsd:string .
+
+MISCELLANEOUS:inapplicable a "MISCELLANEOUS"^^xsd:string .
+
+MISCELLANEOUS:inconclusive a "MISCELLANEOUS"^^xsd:string .
+
+MISCELLANEOUS:infrequent a "MISCELLANEOUS"^^xsd:string .
+
+MISCELLANEOUS:unexplained a "MISCELLANEOUS"^^xsd:string .
+
+MISCELLANEOUS:unprofitable a "MISCELLANEOUS"^^xsd:string .
+
+NORP:a_Bitcoin_investment a "NORP"^^xsd:string .
+
+ORDINAL:first a "ORDINAL"^^xsd:string .
+
+ORG:ATM_option a "ORG"^^xsd:string .
+
+ORG:BitCoin_price a "ORG"^^xsd:string .
+
+ORG:Bitcoin_trade_datum a "ORG"^^xsd:string .
+
+ORG:Bribes_to_Miners a "ORG"^^xsd:string .
+
+ORG:Cryptocurrency_Bubble_Detection a "ORG"^^xsd:string .
+
+ORG:Cryptocurrency_market_structure a "ORG"^^xsd:string .
+
+ORG:FTX_perpetual a "ORG"^^xsd:string .
+
+ORG:GML a "ORG"^^xsd:string .
+
+ORG:GNN a "ORG"^^xsd:string .
+
+ORG:Hedging_Cryptocurrency_Options a "ORG"^^xsd:string .
+
+ORG:ICOs a "ORG"^^xsd:string .
+
+ORG:Inspection-L a "ORG"^^xsd:string .
+
+ORG:KryptoOracle a "ORG"^^xsd:string .
+
+ORG:MRC-LSTM a "ORG"^^xsd:string .
+
+ORG:MRC_-_LSTM a "ORG"^^xsd:string .
+
+ORG:RQ2 a "ORG"^^xsd:string .
+
+ORG:Random_Forest a "ORG"^^xsd:string ;
+    INVEST:take CARDINAL:about_0.13_second ;
+    INVEST:use ORG:a_voting_mechanism ;
+    OUTPERFORM:outperform ORG:logistic_regression .
+
+ORG:Vaiva_Vasiliauskaite a "ORG"^^xsd:string ;
+    INVEST:leave ORG:such_hypothesis .
+
+ORG:a_Decentralization a "ORG"^^xsd:string .
+
+ORG:a_GARCH_model a "ORG"^^xsd:string .
+
+ORG:a_bivariate_model a "ORG"^^xsd:string .
+
+ORG:a_bribe a "ORG"^^xsd:string .
+
+ORG:a_clustering_method a "ORG"^^xsd:string .
+
+ORG:a_concern a "ORG"^^xsd:string .
+
+ORG:a_decrease_trend a "ORG"^^xsd:string .
+
+ORG:a_dice_game a "ORG"^^xsd:string .
+
+ORG:a_diversified_portfolio a "ORG"^^xsd:string .
+
+ORG:a_double_spend a "ORG"^^xsd:string .
+
+ORG:a_feature a "ORG"^^xsd:string .
+
+ORG:a_good_factor a "ORG"^^xsd:string .
+
+ORG:a_great_support a "ORG"^^xsd:string .
+
+ORG:a_high_potential a "ORG"^^xsd:string .
+
+ORG:a_large_leap a "ORG"^^xsd:string .
+
+ORG:a_light a "ORG"^^xsd:string .
+
+ORG:a_lower_bind a "ORG"^^xsd:string .
+
+<http://crypto.org/ORG/a_marked_'_skew_'> a "ORG"^^xsd:string .
+
+ORG:a_market_crash a "ORG"^^xsd:string .
+
+ORG:a_maturity_regime a "ORG"^^xsd:string .
+
+ORG:a_methodology a "ORG"^^xsd:string .
+
+ORG:a_random_walk a "ORG"^^xsd:string .
+
+ORG:a_reasonable_practice a "ORG"^^xsd:string .
+
+ORG:a_regime_switch a "ORG"^^xsd:string .
+
+ORG:a_reward a "ORG"^^xsd:string ;
+    INVEST:be ORG:share_among_miner .
+
+ORG:a_short_position a "ORG"^^xsd:string .
+
+ORG:a_tautology a "ORG"^^xsd:string .
+
+ORG:a_voting_mechanism a "ORG"^^xsd:string .
+
+ORG:across_time a "ORG"^^xsd:string .
+
+ORG:adaptive_investment_strategy a "ORG"^^xsd:string .
+
+ORG:additional_analysis a "ORG"^^xsd:string .
+
+ORG:additional_light a "ORG"^^xsd:string .
+
+ORG:advantage a "ORG"^^xsd:string .
+
+ORG:after_each_jump a "ORG"^^xsd:string .
+
+ORG:after_some_time a "ORG"^^xsd:string .
+
+ORG:against_each_other a "ORG"^^xsd:string .
+
+ORG:agent a "ORG"^^xsd:string .
+
+ORG:aggregational_Gaussianity a "ORG"^^xsd:string .
+
+ORG:algorithm_and_model a "ORG"^^xsd:string .
+
+ORG:all_other_player a "ORG"^^xsd:string .
+
+ORG:along_the_line a "ORG"^^xsd:string .
+
+ORG:an_ablation_study a "ORG"^^xsd:string .
+
+ORG:an_active_role a "ORG"^^xsd:string .
+
+ORG:an_ecological_perspective a "ORG"^^xsd:string .
+
+ORG:an_exchange a "ORG"^^xsd:string ;
+    INVEST:punish ORG:the_participant .
+
+ORG:an_important_role a "ORG"^^xsd:string .
+
+ORG:an_inevitable_problem a "ORG"^^xsd:string .
+
+ORG:an_interface a "ORG"^^xsd:string .
+
+ORG:analyse a "ORG"^^xsd:string .
+
+ORG:applicable a "ORG"^^xsd:string .
+
+<http://crypto.org/ORG/as_N_→_∞.> a "ORG"^^xsd:string .
+
+ORG:as_bimodular_surprise a "ORG"^^xsd:string .
+
+ORG:as_input_feature a "ORG"^^xsd:string .
+
+ORG:at a "ORG"^^xsd:string .
+
+ORG:at_alternative_cryptocurrencie a "ORG"^^xsd:string .
+
+ORG:available_alternative a "ORG"^^xsd:string .
+
+ORG:both_model a "ORG"^^xsd:string ;
+    INVEST:represent ORG:public_awareness .
+
+ORG:bribe a "ORG"^^xsd:string ;
+    INVEST:pay ORG:after_some_time .
+
+ORG:bribe_proxy a "ORG"^^xsd:string .
+
+<http://crypto.org/ORG/briber_'s_cryptocurrencie> a "ORG"^^xsd:string .
+
+ORG:by_run_exchange a "ORG"^^xsd:string .
+
+ORG:co_-_movement a "ORG"^^xsd:string .
+
+ORG:coin a "ORG"^^xsd:string .
+
+ORG:coin_miner a "ORG"^^xsd:string .
+
+ORG:common a "ORG"^^xsd:string .
+
+ORG:comparable a "ORG"^^xsd:string .
+
+ORG:complex a "ORG"^^xsd:string .
+
+ORG:complex_strategy a "ORG"^^xsd:string .
+
+ORG:considerably_more_frequent a "ORG"^^xsd:string .
+
+ORG:consistent a "ORG"^^xsd:string .
+
+ORG:consistent_with_neutrality a "ORG"^^xsd:string .
+
+ORG:constant_in_equilibrium a "ORG"^^xsd:string .
+
+ORG:credit a "ORG"^^xsd:string .
+
+ORG:cryptocurrencie a "ORG"^^xsd:string ;
+    INVEST:give ORG:more_power ;
+    INVEST:have ORG:a_high_potential,
+        ORG:no_fundamental_value .
+
+ORG:data_collection a "ORG"^^xsd:string .
+
+ORG:datum a "ORG"^^xsd:string .
+
+ORG:decentralization_dynamic a "ORG"^^xsd:string .
+
+ORG:different_cryptoasset a "ORG"^^xsd:string .
+
+ORG:different_price_regime a "ORG"^^xsd:string .
+
+ORG:during_rapid_decline a "ORG"^^xsd:string .
+
+ORG:each_time a "ORG"^^xsd:string .
+
+ORG:econometric_method a "ORG"^^xsd:string .
+
+ORG:economic_and_politic a "ORG"^^xsd:string .
+
+ORG:economic_theory a "ORG"^^xsd:string .
+
+ORG:effective a "ORG"^^xsd:string .
+
+ORG:enormously a "ORG"^^xsd:string .
+
+ORG:equal a "ORG"^^xsd:string .
+
+ORG:error a "ORG"^^xsd:string .
+
+ORG:especially_carbon_-_intensive a "ORG"^^xsd:string .
+
+ORG:essentially_unpredictable a "ORG"^^xsd:string .
+
+ORG:evolutionary_correlation_behaviour a "ORG"^^xsd:string .
+
+ORG:exchange_volume a "ORG"^^xsd:string .
+
+ORG:exogenous_variable a "ORG"^^xsd:string .
+
+<http://crypto.org/ORG/extreme_,_unexpected_crash> a "ORG"^^xsd:string .
+
+ORG:extremely_fast a "ORG"^^xsd:string .
+
+ORG:fair a "ORG"^^xsd:string .
+
+ORG:far a "ORG"^^xsd:string .
+
+ORG:financial_datum a "ORG"^^xsd:string .
+
+ORG:for_detection a "ORG"^^xsd:string .
+
+ORG:for_further_research a "ORG"^^xsd:string .
+
+ORG:for_future_investigation a "ORG"^^xsd:string .
+
+ORG:for_grant a "ORG"^^xsd:string .
+
+ORG:for_jump_risk a "ORG"^^xsd:string .
+
+ORG:force_liquidation a "ORG"^^xsd:string .
+
+ORG:frequent_event a "ORG"^^xsd:string .
+
+ORG:from_cryptocurrencie a "ORG"^^xsd:string .
+
+ORG:from_these_conversion a "ORG"^^xsd:string .
+
+ORG:from_trader a "ORG"^^xsd:string .
+
+ORG:functional_in_fine a "ORG"^^xsd:string .
+
+ORG:further_prominence a "ORG"^^xsd:string .
+
+ORG:generality a "ORG"^^xsd:string .
+
+ORG:generally_scarce a "ORG"^^xsd:string .
+
+ORG:granular a "ORG"^^xsd:string .
+
+ORG:great_economic_freedom a "ORG"^^xsd:string .
+
+ORG:group_transaction a "ORG"^^xsd:string .
+
+ORG:here a "ORG"^^xsd:string .
+
+ORG:hierarchical_clustering a "ORG"^^xsd:string .
+
+ORG:highly_expressive_feature a "ORG"^^xsd:string .
+
+ORG:highly_non_-_linear a "ORG"^^xsd:string .
+
+ORG:how a "ORG"^^xsd:string .
+
+ORG:hypothesis_test a "ORG"^^xsd:string .
+
+ORG:in_collusion a "ORG"^^xsd:string .
+
+ORG:in_distress a "ORG"^^xsd:string .
+
+ORG:in_future_direction a "ORG"^^xsd:string .
+
+ORG:in_late_2020 a "ORG"^^xsd:string .
+
+ORG:in_practical_application a "ORG"^^xsd:string .
+
+ORG:in_test_phase a "ORG"^^xsd:string .
+
+ORG:in_time_interval a "ORG"^^xsd:string .
+
+ORG:in_trading a "ORG"^^xsd:string .
+
+ORG:in_traditional_finance a "ORG"^^xsd:string .
+
+ORG:increasingly_difficult a "ORG"^^xsd:string .
+
+ORG:increasingly_popular a "ORG"^^xsd:string .
+
+ORG:innovation a "ORG"^^xsd:string .
+
+ORG:into_account a "ORG"^^xsd:string .
+
+ORG:investment_return a "ORG"^^xsd:string .
+
+ORG:key a "ORG"^^xsd:string .
+
+ORG:kurtosis a "ORG"^^xsd:string .
+
+ORG:large_correlation a "ORG"^^xsd:string .
+
+ORG:large_price_jump a "ORG"^^xsd:string .
+
+ORG:largely_unexplored a "ORG"^^xsd:string .
+
+ORG:later_base a "ORG"^^xsd:string .
+
+ORG:less_attention a "ORG"^^xsd:string .
+
+ORG:less_convincing a "ORG"^^xsd:string .
+
+ORG:light a "ORG"^^xsd:string .
+
+ORG:loan a "ORG"^^xsd:string .
+
+ORG:low_liquidity a "ORG"^^xsd:string .
+
+ORG:macroscale_ODE_model a "ORG"^^xsd:string .
+
+ORG:many_arbitrage_action a "ORG"^^xsd:string .
+
+ORG:many_choice a "ORG"^^xsd:string .
+
+ORG:many_interest a "ORG"^^xsd:string .
+
+ORG:market_condition a "ORG"^^xsd:string .
+
+ORG:miner a "ORG"^^xsd:string ;
+    INVEST:compete ORG:against_each_other ;
+    INVEST:receive ORG:bribe ;
+    INVEST:will ORG:group_transaction ;
+    TRANSFER:not_turn ORG:the_computing_chip .
+
+ORG:mining_cost a "ORG"^^xsd:string .
+
+ORG:money a "ORG"^^xsd:string ;
+    INVEST:be ORG:credit ;
+    INVEST:make ORG:by_run_exchange .
+
+ORG:more_attention a "ORG"^^xsd:string .
+
+ORG:more_compact a "ORG"^^xsd:string .
+
+ORG:more_complex a "ORG"^^xsd:string .
+
+ORG:more_insight a "ORG"^^xsd:string .
+
+ORG:more_interesting a "ORG"^^xsd:string .
+
+ORG:more_power a "ORG"^^xsd:string .
+
+ORG:more_pronounced a "ORG"^^xsd:string .
+
+ORG:much_great_stability a "ORG"^^xsd:string .
+
+ORG:much_high_interconnectedness a "ORG"^^xsd:string .
+
+ORG:much_human_effort a "ORG"^^xsd:string .
+
+ORG:multifractal_property a "ORG"^^xsd:string .
+
+ORG:multiple_address a "ORG"^^xsd:string .
+
+ORG:multiple_direction a "ORG"^^xsd:string .
+
+ORG:new_technical_challenge a "ORG"^^xsd:string .
+
+ORG:no_fundamental_value a "ORG"^^xsd:string .
+
+ORG:no_long_significant a "ORG"^^xsd:string .
+
+ORG:no_transparency a "ORG"^^xsd:string .
+
+ORG:noisy_information a "ORG"^^xsd:string .
+
+ORG:non_-_zero_value a "ORG"^^xsd:string .
+
+ORG:normal_distribution a "ORG"^^xsd:string .
+
+ORG:now a "ORG"^^xsd:string .
+
+ORG:nowadays a "ORG"^^xsd:string .
+
+ORG:of_IOUs a "ORG"^^xsd:string .
+
+ORG:of_special_interest a "ORG"^^xsd:string .
+
+ORG:often a "ORG"^^xsd:string .
+
+ORG:old_expectation a "ORG"^^xsd:string .
+
+ORG:on_BitCoin_price a "ORG"^^xsd:string .
+
+ORG:on_each_subset a "ORG"^^xsd:string .
+
+ORG:on_many_window a "ORG"^^xsd:string .
+
+ORG:on_regular_user a "ORG"^^xsd:string .
+
+ORG:on_these_dynamic a "ORG"^^xsd:string .
+
+ORG:only_0.008_second a "ORG"^^xsd:string .
+
+ORG:only_meaningful a "ORG"^^xsd:string .
+
+ORG:optimization_method a "ORG"^^xsd:string .
+
+ORG:option_price a "ORG"^^xsd:string .
+
+ORG:originally a "ORG"^^xsd:string .
+
+ORG:other a "ORG"^^xsd:string .
+
+ORG:other_cryptocurrencie a "ORG"^^xsd:string .
+
+ORG:pairwise_correlation a "ORG"^^xsd:string .
+
+ORG:particular_attention a "ORG"^^xsd:string .
+
+ORG:particularly_informative_property a "ORG"^^xsd:string .
+
+ORG:physically_sustainable a "ORG"^^xsd:string .
+
+ORG:poor_multifractal_behaviour a "ORG"^^xsd:string .
+
+ORG:positive_evidence a "ORG"^^xsd:string .
+
+ORG:price_prediction a "ORG"^^xsd:string .
+
+ORG:profit a "ORG"^^xsd:string .
+
+ORG:progressively_heavy a "ORG"^^xsd:string .
+
+ORG:property a "ORG"^^xsd:string .
+
+ORG:pseudonymous a "ORG"^^xsd:string .
+
+ORG:public a "ORG"^^xsd:string .
+
+ORG:public_awareness a "ORG"^^xsd:string .
+
+ORG:public_sentiment a "ORG"^^xsd:string .
+
+ORG:python_programming_language a "ORG"^^xsd:string .
+
+ORG:quantum_digital_signature a "ORG"^^xsd:string .
+
+ORG:quite_stable a "ORG"^^xsd:string .
+
+ORG:rapidly a "ORG"^^xsd:string .
+
+ORG:real_capital a "ORG"^^xsd:string .
+
+ORG:research_topic a "ORG"^^xsd:string .
+
+<http://crypto.org/ORG/resource_(_e.g.> a "ORG"^^xsd:string .
+
+ORG:risk_and_excitement a "ORG"^^xsd:string .
+
+ORG:self_-_reinforce a "ORG"^^xsd:string .
+
+ORG:several_machine a "ORG"^^xsd:string .
+
+ORG:several_parameter a "ORG"^^xsd:string .
+
+ORG:several_recur_pattern a "ORG"^^xsd:string .
+
+ORG:several_source a "ORG"^^xsd:string .
+
+ORG:several_trading_decision a "ORG"^^xsd:string .
+
+ORG:share_among_miner a "ORG"^^xsd:string .
+
+ORG:short_selling a "ORG"^^xsd:string .
+
+ORG:significance_test a "ORG"^^xsd:string .
+
+ORG:significant_information_transfer a "ORG"^^xsd:string .
+
+ORG:significantly a "ORG"^^xsd:string .
+
+ORG:similar_effectiveness a "ORG"^^xsd:string .
+
+ORG:similar_growth_pattern a "ORG"^^xsd:string .
+
+ORG:similar_hedging_effectiveness a "ORG"^^xsd:string .
+
+ORG:similarity a "ORG"^^xsd:string .
+
+ORG:similarly_strong_result a "ORG"^^xsd:string .
+
+ORG:small a "ORG"^^xsd:string .
+
+ORG:small_eigenvalue a "ORG"^^xsd:string .
+
+ORG:small_resource a "ORG"^^xsd:string .
+
+ORG:smart_decision a "ORG"^^xsd:string .
+
+ORG:social_dynamic a "ORG"^^xsd:string .
+
+ORG:some_exception a "ORG"^^xsd:string .
+
+ORG:some_noticeable_advantage a "ORG"^^xsd:string .
+
+ORG:some_value a "ORG"^^xsd:string .
+
+ORG:sophisticated_tool a "ORG"^^xsd:string .
+
+ORG:spike a "ORG"^^xsd:string .
+
+ORG:still a "ORG"^^xsd:string .
+
+ORG:stochastic_perturbation a "ORG"^^xsd:string .
+
+ORG:strong_volatility a "ORG"^^xsd:string .
+
+ORG:subordinate_Lévy_process a "ORG"^^xsd:string .
+
+ORG:such_a_study a "ORG"^^xsd:string .
+
+ORG:such_an_effect a "ORG"^^xsd:string .
+
+ORG:such_distribution_pattern a "ORG"^^xsd:string .
+
+ORG:such_hypothesis a "ORG"^^xsd:string .
+
+ORG:technical_implementation_proficiency a "ORG"^^xsd:string .
+
+<http://crypto.org/ORG/that_hub_(_i.e.> a "ORG"^^xsd:string .
+
+ORG:the_DRLMM_framework a "ORG"^^xsd:string .
+
+ORG:the_MST_construction a "ORG"^^xsd:string .
+
+ORG:the_NMF_component a "ORG"^^xsd:string ;
+    INVEST:have ORG:non_-_zero_value .
+
+ORG:the_aforementione_association a "ORG"^^xsd:string .
+
+ORG:the_community_dynamic a "ORG"^^xsd:string .
+
+ORG:the_computing_chip a "ORG"^^xsd:string .
+
+ORG:the_cross_-_correlation a "ORG"^^xsd:string .
+
+ORG:the_discussion a "ORG"^^xsd:string .
+
+ORG:the_door a "ORG"^^xsd:string .
+
+ORG:the_fraud a "ORG"^^xsd:string .
+
+ORG:the_game a "ORG"^^xsd:string .
+
+ORG:the_good_output a "ORG"^^xsd:string .
+
+ORG:the_hedging_effectiveness a "ORG"^^xsd:string .
+
+ORG:the_jump a "ORG"^^xsd:string .
+
+ORG:the_low_error a "ORG"^^xsd:string .
+
+ORG:the_multifractal_feature a "ORG"^^xsd:string .
+
+ORG:the_order_flow a "ORG"^^xsd:string .
+
+ORG:the_parameter_estimation a "ORG"^^xsd:string .
+
+ORG:the_participant a "ORG"^^xsd:string .
+
+ORG:the_portfolio a "ORG"^^xsd:string .
+
+ORG:the_requirement_that a "ORG"^^xsd:string .
+
+ORG:the_result_prediction a "ORG"^^xsd:string .
+
+ORG:the_scaling_exponent a "ORG"^^xsd:string .
+
+ORG:the_sentiment a "ORG"^^xsd:string .
+
+ORG:the_short_timeserie a "ORG"^^xsd:string .
+
+ORG:the_subject a "ORG"^^xsd:string .
+
+ORG:the_system a "ORG"^^xsd:string .
+
+ORG:the_trading_algorithm a "ORG"^^xsd:string .
+
+ORG:the_trading_signal a "ORG"^^xsd:string .
+
+ORG:the_trend a "ORG"^^xsd:string .
+
+ORG:then a "ORG"^^xsd:string .
+
+ORG:these_event a "ORG"^^xsd:string .
+
+ORG:these_insight a "ORG"^^xsd:string .
+
+ORG:these_question a "ORG"^^xsd:string .
+
+ORG:this_analysis a "ORG"^^xsd:string .
+
+ORG:this_approach a "ORG"^^xsd:string ;
+    INVEST:produce ORG:similarly_strong_result .
+
+ORG:this_feature a "ORG"^^xsd:string .
+
+ORG:this_goal a "ORG"^^xsd:string .
+
+ORG:this_indicator a "ORG"^^xsd:string .
+
+ORG:this_issue a "ORG"^^xsd:string .
+
+ORG:this_knowledge_gap a "ORG"^^xsd:string .
+
+ORG:this_problem a "ORG"^^xsd:string ;
+    INVEST:leave ORG:for_further_research .
+
+ORG:this_scenario a "ORG"^^xsd:string .
+
+ORG:this_stability a "ORG"^^xsd:string .
+
+ORG:to_Exchange_Rate a "ORG"^^xsd:string .
+
+ORG:to_all_participant a "ORG"^^xsd:string .
+
+ORG:to_be_large a "ORG"^^xsd:string .
+
+ORG:to_financial_gain a "ORG"^^xsd:string .
+
+ORG:to_the_discussion a "ORG"^^xsd:string .
+
+ORG:to_the_machine a "ORG"^^xsd:string .
+
+ORG:to_the_user a "ORG"^^xsd:string .
+
+ORG:to_this_literature a "ORG"^^xsd:string .
+
+ORG:to_trading_profit a "ORG"^^xsd:string .
+
+ORG:to_unit_length a "ORG"^^xsd:string .
+
+ORG:together a "ORG"^^xsd:string .
+
+ORG:too_much_energy a "ORG"^^xsd:string .
+
+ORG:totally_self_-_reference a "ORG"^^xsd:string .
+
+ORG:trade a "ORG"^^xsd:string ;
+    IS_AUTHOR_OF:be_never PERSON:achievable_on_bitcoin .
+
+ORG:trade_opportunity a "ORG"^^xsd:string .
+
+ORG:transaction a "ORG"^^xsd:string .
+
+ORG:transaction_datum a "ORG"^^xsd:string .
+
+ORG:true_positive a "ORG"^^xsd:string .
+
+ORG:typically a "ORG"^^xsd:string .
+
+ORG:unlimited_profit a "ORG"^^xsd:string .
+
+ORG:unlimited_wealth a "ORG"^^xsd:string .
+
+ORG:upon_community_trust a "ORG"^^xsd:string .
+
+ORG:usually a "ORG"^^xsd:string .
+
+ORG:variance a "ORG"^^xsd:string .
+
+ORG:various_classification_method a "ORG"^^xsd:string .
+
+ORG:various_volatility_model a "ORG"^^xsd:string .
+
+ORG:very_few a "ORG"^^xsd:string .
+
+ORG:very_high_profit a "ORG"^^xsd:string .
+
+ORG:very_prominently_evident a "ORG"^^xsd:string .
+
+ORG:volatility_curve a "ORG"^^xsd:string ;
+    INVEST:exhibit <http://crypto.org/ORG/a_marked_'_skew_'> .
+
+ORG:volatility_information a "ORG"^^xsd:string .
+
+ORG:weak_label a "ORG"^^xsd:string .
+
+ORG:wealth a "ORG"^^xsd:string .
+
+ORG:well_prediction_performance a "ORG"^^xsd:string .
+
+ORG:wide_acceptance a "ORG"^^xsd:string .
+
+ORG:with a "ORG"^^xsd:string .
+
+ORG:with_BQR_approach a "ORG"^^xsd:string .
+
+ORG:with_Technicals a "ORG"^^xsd:string .
+
+ORG:with_above_feature a "ORG"^^xsd:string .
+
+ORG:with_cryptocurrency_price a "ORG"^^xsd:string .
+
+ORG:with_each_other a "ORG"^^xsd:string .
+
+ORG:with_miner a "ORG"^^xsd:string .
+
+ORG:with_several_model a "ORG"^^xsd:string .
+
+ORG:with_technical a "ORG"^^xsd:string .
+
+ORG:with_this_issue a "ORG"^^xsd:string .
+
+ORG:β_fear a "ORG"^^xsd:string .
+
+PERCENT:by_15 a "PERCENT"^^xsd:string .
+
+PERSON:Ethereum_blockchain a "PERSON"^^xsd:string .
+
+PERSON:achievable_on_bitcoin a "PERSON"^^xsd:string .
+
+PERSON:at_Bitcoin a "PERSON"^^xsd:string .
+
+PERSON:document_in_bitcoin a "PERSON"^^xsd:string .
+
+PERSON:for_Bitcoin a "PERSON"^^xsd:string ;
+    INVEST:work ORG:typically .
+
+PERSON:highly_negative_PnLs a "PERSON"^^xsd:string .
+
+PERSON:the_Markov_property a "PERSON"^^xsd:string .
+
+PRODUCT:Twitter_signal a "PRODUCT"^^xsd:string .
+
+ORG:always a "ORG"^^xsd:string .
+
+ORG:available a "ORG"^^xsd:string .
+
+ORG:logistic_regression a "ORG"^^xsd:string .
+
+ORG:mine a "ORG"^^xsd:string ;
+    INVEST:be ORG:physically_sustainable .
+
+ORG:more_expensive a "ORG"^^xsd:string .
+
+ORG:potential_loss a "ORG"^^xsd:string .
+
+ORG:price a "ORG"^^xsd:string .
+
+ORG:so a "ORG"^^xsd:string .
+
+ORG:victim a "ORG"^^xsd:string .
+
+ORG:yet a "ORG"^^xsd:string .
+
+ORG:when a "ORG"^^xsd:string .
+
+ORG:place a "ORG"^^xsd:string .
+

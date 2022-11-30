@@ -65,8 +65,8 @@ stanford_entities_ontology=list(stanford_ontology["entities"].keys())
 
 
 
-bert_template={4:["SELECT (count(*) as? count) WHERE {<http://crypto.org/ENTITY_CLASS/ENTITY> <http://crypto.org/RELATION_CLASS/RELATION> ?o.}",
-                  "SELECT (count(*) as? count) WHERE {?s <http://crypto.org/RELATION_CLASS/RELATION> <http://crypto.org/ENTITY_CLASS/ENTITY>.}"]
+bert_template={4:["SELECT (count(?o) as ?count) WHERE {<http://crypto.org/ENTITY_CLASS/ENTITY> <http://crypto.org/RELATION_CLASS/RELATION> ?o.}",
+                  "SELECT (count(?s) as ?count) WHERE {?s <http://crypto.org/RELATION_CLASS/RELATION> <http://crypto.org/ENTITY_CLASS/ENTITY>.}"]
             ,5:["SELECT ?o WHERE { <http://crypto.org/ENTITY_CLASS/ENTITY> <http://crypto.org/RELATION_CLASS/RELATION> ?o. } ORDER BY AGGREGATION_METHOD(?o) LIMIT 1"]}
 XGB_template={2:[1,"SELECT DISTINCT ?o WHERE { <http://crypto.org/ENTITY_CLASS/ENTITY> <http://crypto.org/RELATION_CLASS/RELATION> ?o.}",
                  "SELECT DISTINCT ?s WHERE { ?s <http://crypto.org/RELATION_CLASS/RELATION> <http://crypto.org/ENTITY_CLASS/ENTITY>.}"],
@@ -77,7 +77,10 @@ ner = spacy.load('en_core_web_trf')
 max_superlatives=["highest","maximum","most","greatest","best","farthest","longest"]
 min_superlatives=["least","smallest","lowest","minimum","worst","closest","shortest"]
 
-
+with open("stanford_triples.json", 'r') as f:
+  stanford_triples = json.load(f)
+with open("allennlp_triples.json", 'r') as f:
+  allennlp_triples = json.load(f)
 
 # Step 1: Query Template classification
 
@@ -177,7 +180,7 @@ def get_single_relation(query,ontology):
 
   
   hyper_cleaned_query=clean_query_for_sim(query)
-  print(hyper_cleaned_query)
+  #print(hyper_cleaned_query)
   fuzzy_score=[]
   for relation in relations:
     score=fuzz.token_set_ratio(hyper_cleaned_query,relation)
@@ -185,7 +188,7 @@ def get_single_relation(query,ontology):
   if max(fuzzy_score)>85:
     #print(relation,hyper_cleaned_query,score)
     relation= relations[fuzzy_score.index(max(fuzzy_score))]
-    print(ontology["relation"][relation])
+    #print(ontology["relation"][relation])
     #print(relation, ontology["relation"][relation])
     return relation,ontology["relation"][relation]
 
@@ -245,7 +248,7 @@ def map_entity(extracted_entity,ontology):
   #print(max(query_relation_score))
   if max(entity_onto_score)>0.80:
     onto_entity= entities_ontology[entity_onto_score.index(max(entity_onto_score))]
-    return entity,ontology["entities"][onto_entity]
+    return onto_entity,ontology["entities"][onto_entity]
   else:
     return "Not found", "Not found"
 
@@ -274,7 +277,7 @@ def get_single_entity(query,ontology):
 # For template 1
 def get_entities(query,ontology):
   # If NER exists that's the entity - simply try mapping it to a class and entity
-  query.replace("cryptocurrency","crypto currency")
+  query=query.replace("cryptocurrency","crypto currency")
   entities=[]
   doc=ner(query)
   if len(doc.ents)>0:
@@ -309,13 +312,31 @@ def get_entities(query,ontology):
   return final_mapped_entities,final_mapped_entities_classes
   
 def get_aggregation_method(query):
+      query=query.translate(str.maketrans('', '', string.punctuation))
       tokens=query.split()
       for token in tokens:
+          #print(token)
           if token in max_superlatives:
               return ["DESC"]
           if token in min_superlatives:
               return ["AESC"]
     
       return ["DESC","AESC"]
+      
+      
+def check_query_validity(entity, relation, ontology):
+  
+  query_valid=False  
+  if ontology=="allen":
+      triples=allennlp_triples
+  else:
+      triples=stanford_triples
+  #print(triples)
+
+  for triple in triples:
+    if (entity == triple[0] or entity == triple[2]) and (relation == triple[1]):
+      query_valid=True
+  
+  return query_valid
       
       

@@ -8,10 +8,16 @@ from streamlit_agraph import agraph, Config
 from streamlit_agraph.node import Node
 from streamlit_agraph.edge import Edge
 from helper import query_to_sparql
+# from utilities import *
 
 MAP_FILENAME = {
     'Stanford Open IE': "stanfordopenie",
     'AllenNLP': "allennlp",
+}
+
+MAP_FOR_TEXT2SPARQL = {
+    'Stanford Open IE': "stanford",
+    'AllenNLP': "allen",
 }
 
 
@@ -71,9 +77,7 @@ def generate_graph(model):
     return graph, new_triplets, entityOnto
 
 
-def retrieve_results(sparql_query, server, entity_onto):
-    result = server.query(sparql_query)
-
+def retrieve_results(sparql_queries, server, entity_onto):
     # given an entity, returns triplets that contain the entity
     def gen_triplets_from_entity(triple_type, entity_uri):
         ans = []
@@ -82,47 +86,28 @@ def retrieve_results(sparql_query, server, entity_onto):
                     or (triple_type == 'o' and str(i[2]) == entity_uri):
                 ans.append(i)
         return ans
-
     query_results = []
-    for bindings in result['results']['bindings']:
-        for rel, val in bindings.items():
-            query_results.append({rel: val['value']})
-
     set_of_entities = set(entity_onto.values())
     final_triplets = []  # contains triplets we need
     flag = False
-    for bindings in result['results']['bindings']:
-        for rel, val in bindings.items():
-            if 's' == rel or 'o' == rel:
-                flag = True
-                entity_uri = val['value']
-                if len(entity_uri.split("/")) == 5:
-                    entity_type = entity_uri.split("/")[-2]
-                    # final_triplets.extend(
-                    #     gen_triplets_from_entity(rel, entity_uri))
-                    if entity_type in set_of_entities:
-                        final_triplets.extend(
-                            gen_triplets_from_entity(rel, entity_uri))
+    for query in sparql_queries:
+        result = server.query(query)
+        for bindings in result['results']['bindings']:
+            for rel, val in bindings.items():
+                query_results.append({rel: val['value']})
 
-    # def allTrip(val):
-    #     ans = []
-    #     for i in new_triplets:
-    #         if str(i[0]) == val or str(i[2]) == val:
-    #             if not str(i[0]) == str(i[2]):
-    #                 ans.append(i)
-    #     return ans
-    # allEnt = list(set(list(entity_onto.values())))
-    # finalTrip = []  # contains triplets we need
-    # for b in result['results']['bindings']:
-    #     if 's' in b.keys() or 'o' in b.keys():
-    #         flag = True
-    #         for ele in list(b.values()):
-    #             temp = ele['value']
-    #             if len(temp.split("/")) == 5:
-    #                 newTemp = temp.split("/")[-2]
-    #                 if newTemp in allEnt:
-    #                     finalTrip.extend(allTrip(temp))
-
+        for bindings in result['results']['bindings']:
+            for rel, val in bindings.items():
+                if 's' == rel or 'o' == rel:
+                    flag = True
+                    entity_uri = val['value']
+                    if len(entity_uri.split("/")) == 5:
+                        entity_type = entity_uri.split("/")[-2]
+                        # final_triplets.extend(
+                        #     gen_triplets_from_entity(rel, entity_uri))
+                        if entity_type in set_of_entities:
+                            final_triplets.extend(
+                                gen_triplets_from_entity(rel, entity_uri))
     final_dict = {}
     final_dict['result'] = query_results
     final_dict['visualization'] = final_triplets
@@ -153,8 +138,77 @@ def gen_nodes_edges(subgraph):
     return nodes, edges
 
 
+def text2sparql(query, ontology):
+
+    # if
+    sparql_query_list = []
+
+    template_id, n_entities, query_templates = template_classification(query)
+    print(query_templates)
+
+    if template_id == 4 or template_id == 2:
+        # print(get_single_relation(query,ontology))
+        relation, relation_class = get_single_relation(query, ontology)
+        print(relation)
+
+        entity, entity_class = get_single_entity(query, ontology)
+        query_validity = check_query_validity(entity, relation, ontology)
+
+        if (entity != "Not found" and relation != "Not found"):
+            if query_validity == True:
+                for query_template in query_templates:
+                    sparql_query_list.append(query_template.replace("ENTITY_CLASS", entity_class.replace(" ", "_")).replace("ENTITY", entity.replace(
+                        " ", "_")).replace("RELATION_CLASS", relation_class.replace(" ", "_")).replace("RELATION", relation.replace(" ", "_")))
+            else:
+                q = "SELECT DISTINCT ?p ?o WHERE { <http://crypto.org/ENTITY_CLASS/ENTITY> ?p ?o.}"
+                sparql_query_list.append(q.replace("ENTITY_CLASS", entity_class.replace(
+                    " ", "_")).replace("ENTITY", entity.replace(" ", "_")))
+
+        else:
+            sparql_query_list.append("Not found")
+
+    if template_id == 1:
+        print("hello")
+        entities, entities_class = get_entities(query, ontology)
+
+        if len(entities) != 0:
+            for i, entity in enumerate(entities):
+                entity_class = entities_class[i]
+                #print(entity, entity_class)
+                sparql_query_list.append(query_templates.replace("ENTITY_CLASS", entity_class.replace(
+                    " ", "_")).replace("ENTITY", entity.replace(" ", "_")))
+        else:
+            sparql_query_list.append("Not found")
+
+    if template_id == 5:
+        relation, relation_class = get_single_relation(query, ontology)
+        entities, entities_class = get_entities(query, ontology)
+        aggregation = get_aggregation_method(query)
+        # print(aggregation)
+        if (relation != "Not found" and relation != "Not found"):
+            for i, entity in enumerate(entities):
+                query_validity = check_query_validity(
+                    entity, relation, ontology)
+                entity_class = entities_class[i]
+
+                if query_validity == True:
+                    for agg_method in aggregation:
+                        # print(agg_method)
+                        sparql_query_list.append(query_templates[0].replace("ENTITY_CLASS", entity_class.replace(" ", "_")).replace("ENTITY", entity.replace(" ", "_")).replace(
+                            "RELATION_CLASS", relation_class.replace(" ", "_")).replace("RELATION", relation.replace(" ", "_")).replace("AGGREGATION_METHOD", agg_method.replace(" ", "_")))
+                else:
+                    q = "SELECT DISTINCT ?p ?o WHERE { <http://crypto.org/ENTITY_CLASS/ENTITY> ?p ?o.}"
+                    sparql_query_list.append(q.replace("ENTITY_CLASS", entity_class.replace(
+                        " ", "_")).replace("ENTITY", entity.replace(" ", "_")))
+
+        else:
+            sparql_query_list.append("Not found")
+
+    return sparql_query_list
+
+
 def clear_text():
-    st.session_state["text"] = ""
+    st.session_state["text_input"] = ""
 
 
 if __name__ == "__main__":
@@ -193,16 +247,18 @@ if __name__ == "__main__":
             "Enter some text 👇", placeholder="What is Uniswap?", key="text_input")
         if text_input:
             with st.spinner('Converting...'):
-                # will be a list of queries
-                gen_sparql = query_to_sparql(
+                # TODO: Replace query_to_sparql with text2sparql
+                # print(text2sparql(text_input, MAP_FOR_TEXT2SPARQL[model_name]))
+                gen_sparqls = query_to_sparql(
                     text_input, MAP_FILENAME[model_name])
             st.success('Done!')
-            st.write(f"Converted:\n{gen_sparql}")
+            st.write(f"Converted:")
+            st.write(gen_sparqls)
 
             st.write("##")
 
             # Extract subgraph with the SPARQL query
-            result_dict = retrieve_results(gen_sparql, server, entity_onto)
+            result_dict = retrieve_results(gen_sparqls, server, entity_onto)
 
             st.subheader("Answers")
             st.write(result_dict['result'])

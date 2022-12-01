@@ -14,8 +14,11 @@
 
   Go to the cloned repo and run this command:
   ```bash
-  $ pip install -r requirements.txt
+  $ python3 -m venv venv
+  $ . venv/bin/activate
+  $ pip3 install -r requirements.txt
   ```
+
 - Run streamlit app (port:8501)
   ```bash
   $ streamlit run app.py

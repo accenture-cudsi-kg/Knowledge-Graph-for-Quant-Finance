@@ -8,7 +8,7 @@ from streamlit_agraph import agraph, Config
 from streamlit_agraph.node import Node
 from streamlit_agraph.edge import Edge
 from helper import query_to_sparql
-# from utilities import *
+from utilities import *
 
 MAP_FILENAME = {
     'Stanford Open IE': "stanfordopenie",
@@ -144,12 +144,12 @@ def text2sparql(query, ontology):
     sparql_query_list = []
 
     template_id, n_entities, query_templates = template_classification(query)
-    print(query_templates)
+    # print(query_templates)
 
     if template_id == 4 or template_id == 2:
         # print(get_single_relation(query,ontology))
         relation, relation_class = get_single_relation(query, ontology)
-        print(relation)
+        # print(relation)
 
         entity, entity_class = get_single_entity(query, ontology)
         query_validity = check_query_validity(entity, relation, ontology)
@@ -168,7 +168,7 @@ def text2sparql(query, ontology):
             sparql_query_list.append("Not found")
 
     if template_id == 1:
-        print("hello")
+        # print("hello")
         entities, entities_class = get_entities(query, ontology)
 
         if len(entities) != 0:
@@ -244,13 +244,14 @@ if __name__ == "__main__":
 
         st.subheader("Query")
         text_input = st.text_input(
-            "Enter some text 👇", placeholder="What is Uniswap?", key="text_input")
+            "Enter some text 👇", placeholder="What did Ramit Sawhney do?", key="text_input")
         if text_input:
             with st.spinner('Converting...'):
                 # TODO: Replace query_to_sparql with text2sparql
-                # print(text2sparql(text_input, MAP_FOR_TEXT2SPARQL[model_name]))
-                gen_sparqls = query_to_sparql(
-                    text_input, MAP_FILENAME[model_name])
+                gen_sparqls = text2sparql(
+                    text_input, MAP_FOR_TEXT2SPARQL[model_name])
+                # gen_sparqls = query_to_sparql(
+                #     text_input, MAP_FILENAME[model_name])
             st.success('Done!')
             st.write(f"Converted:")
             st.write(gen_sparqls)

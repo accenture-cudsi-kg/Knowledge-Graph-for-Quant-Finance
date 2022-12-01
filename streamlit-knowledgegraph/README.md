@@ -19,6 +19,24 @@
   $ pip3 install -r requirements.txt
   ```
 
+- Create `resources` folder
+  Download resources for text2sparql.
+  ```
+  resources
+  ├── XGB_template_classifier.pkl
+  ├── allennlp_entities_embeddings.pkl
+  ├── allennlp_furtherfilter.json
+  ├── allennlp_ontology.json
+  ├── allennlp_relations_embeddings.pkl
+  ├── allennlp_triples.json
+  ├── stanfordOpenIE_allfilters.json
+  ├── stanford_entities_embeddings.pkl
+  ├── stanford_relations_embeddings.pkl
+  ├── stanford_triples.json
+  ├── stanfordopenie_ontology.json
+  └── templates.json
+  ```
+
 - Run streamlit app (port:8501)
   ```bash
   $ streamlit run app.py

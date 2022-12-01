@@ -1,1 +1,6 @@
 .DS_Store
+streamlit-knowledgegraph/venv/*
+streamlit-knowledgegraph/app.log
+streamlit-knowledgegraph/fin_model/*
+streamlit-knowledgegraph/__pycache__/*
+streamlit-knowledgegraph/resources/*

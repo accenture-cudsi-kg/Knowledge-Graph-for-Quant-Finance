@@ -1,0 +1,9 @@
+streamlit
+rdflib==6.0.2
+pymantic
+streamlit_agraph==0.0.42
+finbert-embedding
+deeppavlov
+xgboost
+fuzzywuzzy
+spacy-transformers

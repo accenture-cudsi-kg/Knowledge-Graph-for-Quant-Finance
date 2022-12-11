@@ -21,6 +21,7 @@
 
 - Create `resources` folder
   Download resources for text2sparql.
+  https://drive.google.com/drive/folders/1zq8vytlsF8DinFcT8sBBVZ285qPGCkgp?usp=sharing
   ```
   resources
   ├── XGB_template_classifier.pkl
